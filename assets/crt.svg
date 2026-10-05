@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 1494" width="880" height="1494" role="img" aria-labelledby="t d">
+<title id="t">KRIS(1) — Kris Kater</title>
+<desc id="d">KRIS(1), General Commands Manual. Kris Kater: backend engineer, Amsterdam, C# and .NET. Synopsis: kris [--backend] [--linux] [--generative-ai]. NAME: kris — backend engineer in Amsterdam. C# and .NET, backend architecture, and generative AI put to real work. DESCRIPTION: I build backends: APIs with clean boundaries, and more and more LLM integration, agents, retrieval and document processing. I like systems that are simple enough to reason about and honest enough to say when they are broken. OPTIONS: --test-first: A failing test first, then the code that makes it pass. --fail-loudly: No magic fallbacks. When something is wrong, it fails where you can see it, and says what is wrong. --dont-know-yet: An honest "I don't know yet" beats a confident guess. Measure first, then say it. --no-new-debt: Whatever a change made worse, that change fixes. Later is not a plan. --agent-first: "IDEs are to software development what manual transmission is to driving. Powerful, precise, and once essential, but increasingly replaced by systems that operate at a higher level of intent." BUILDING: Wondervonk — a SaaS that helps small and medium-sized businesses get the benefits of generative AI. ENVIRONMENT: Linux is home. My daily system is Omarchy, an opinionated Arch-based Linux on Hyprland. I live in the terminal and never quite stop tuning my setup. I'm a hacker in the original sense: when something behaves oddly, I take it apart until I understand it, and send the fix upstream. Away from the keyboard, I practise handstands and yoga, and I love hiking in the mountains with my girlfriend. PATCHES: omacom/omarchy#12231 — local audio outputs are listed before network ones. spotweb/spotweb#1001 — search terms in non-Latin scripts were silently dropped; now they match (merged). spotweb/spotweb#1000 — a Newznab category for UHD movie spots (merged). SEE ALSO: LinkedIn · wondervonk.ai</desc>
+<defs>
+<pattern id="scan" width="4" height="3" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000000" fill-opacity=".24"/></pattern>
+<radialGradient id="vig" cx="50%" cy="50%" r="75%"><stop offset="60%" stop-color="#000000" stop-opacity="0"/><stop offset="100%" stop-color="#000000" stop-opacity=".6"/></radialGradient>
+<radialGradient id="bg" cx="50%" cy="40%" r="80%"><stop offset="0%" stop-color="#1f1405"/><stop offset="100%" stop-color="#0b0702"/></radialGradient>
+<filter id="glow" x="-5%" y="-5%" width="110%" height="110%"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;font-size:16px;fill:#ffb000;white-space:pre}
+.h{fill:#ffd27a;font-weight:700} .m{fill:#b07a1c} .u{fill:#ffc247;text-decoration:underline}
+.m text{fill:#b07a1c} .big{font-size:34px}
+.l{opacity:0;animation-name:type;animation-duration:0.14s;animation-fill-mode:forwards}
+@keyframes type{0%{opacity:1;clip-path:inset(0 100% 0 0)}100%{opacity:1;clip-path:inset(0 0 0 0)}}
+.cur{fill:#ffb000;animation:blink 1s steps(1) infinite,follow 9.80s step-end forwards}
+@keyframes blink{50%{opacity:0}}
+@keyframes follow{0%{transform:translate(0,0)}13.66%{transform:translate(0,22px)}15.44%{transform:translate(0,88px)}17.21%{transform:translate(0,110px)}18.99%{transform:translate(0,154px)}20.76%{transform:translate(0,176px)}22.54%{transform:translate(0,220px)}24.31%{transform:translate(0,242px)}26.09%{transform:translate(0,264px)}27.86%{transform:translate(0,308px)}29.64%{transform:translate(0,330px)}31.41%{transform:translate(0,352px)}33.19%{transform:translate(0,374px)}34.96%{transform:translate(0,396px)}36.73%{transform:translate(0,440px)}38.51%{transform:translate(0,462px)}40.28%{transform:translate(0,506px)}42.06%{transform:translate(0,528px)}43.83%{transform:translate(0,572px)}45.61%{transform:translate(0,594px)}47.38%{transform:translate(0,638px)}49.16%{transform:translate(0,660px)}50.93%{transform:translate(0,704px)}52.71%{transform:translate(0,726px)}54.48%{transform:translate(0,748px)}56.26%{transform:translate(0,770px)}58.03%{transform:translate(0,814px)}59.80%{transform:translate(0,836px)}61.58%{transform:translate(0,858px)}63.35%{transform:translate(0,902px)}65.13%{transform:translate(0,924px)}66.90%{transform:translate(0,946px)}68.68%{transform:translate(0,968px)}70.45%{transform:translate(0,1012px)}72.23%{transform:translate(0,1034px)}74.00%{transform:translate(0,1078px)}75.78%{transform:translate(0,1100px)}77.55%{transform:translate(0,1144px)}79.33%{transform:translate(0,1166px)}81.10%{transform:translate(0,1188px)}82.87%{transform:translate(0,1210px)}84.65%{transform:translate(0,1232px)}86.42%{transform:translate(0,1254px)}88.20%{transform:translate(0,1276px)}89.97%{transform:translate(0,1298px)}91.75%{transform:translate(0,1342px)}93.52%{transform:translate(0,1364px)}100%{transform:translate(0,1386px)}}
+.flk{animation:flicker 4s steps(1) infinite}
+@keyframes flicker{0%{opacity:.035}33%{opacity:0}61%{opacity:.05}79%{opacity:.01}}
+@media (prefers-reduced-motion:reduce){
+.l{opacity:1;animation:none} .flk{animation:none;opacity:0}
+.cur{animation:none;transform:translate(0,1386px)}
+}
+</style>
+<rect width="880" height="1494" rx="22" fill="#1a1712"/>
+<rect x="12" y="12" width="856" height="1470" rx="16" fill="url(#bg)" stroke="#2e2618" stroke-width="2"/>
+<g filter="url(#glow)">
+<g class="l m" style="animation-delay:1.20s;animation-timing-function:steps(41,jump-none)"><text x="52" y="64">KRIS(1)</text><text x="440" y="64" text-anchor="middle">General Commands Manual</text><text x="828" y="64" text-anchor="end">KRIS(1)</text></g>
+<text class="l h big" style="animation-delay:1.37s;animation-timing-function:steps(11,jump-none)" x="52" y="130">Kris Kater</text>
+<text class="l m" style="animation-delay:1.55s;animation-timing-function:steps(41,jump-none)" x="52" y="152">backend engineer · amsterdam · c# / .net</text>
+<text class="l h" style="animation-delay:1.72s;animation-timing-function:steps(9,jump-none)" x="52" y="196">SYNOPSIS</text>
+<text class="l" style="animation-delay:1.90s;animation-timing-function:steps(41,jump-none)" x="119.2" y="218"><tspan class="h">kris</tspan> [<tspan class="u">--backend</tspan>] [<tspan class="u">--linux</tspan>] [<tspan class="u">--generative-ai</tspan>]</text>
+<text class="l h" style="animation-delay:2.07s;animation-timing-function:steps(5,jump-none)" x="52" y="262">NAME</text>
+<text class="l" style="animation-delay:2.24s;animation-timing-function:steps(41,jump-none)" x="119.2" y="284">kris — backend engineer in Amsterdam. C# and .NET, backend architecture,</text>
+<text class="l" style="animation-delay:2.42s;animation-timing-function:steps(36,jump-none)" x="119.2" y="306">and generative AI put to real work.</text>
+<text class="l h" style="animation-delay:2.59s;animation-timing-function:steps(12,jump-none)" x="52" y="350">DESCRIPTION</text>
+<text class="l" style="animation-delay:2.77s;animation-timing-function:steps(41,jump-none)" x="119.2" y="372">I build backends: APIs with clean boundaries, and more and more LLM</text>
+<text class="l" style="animation-delay:2.94s;animation-timing-function:steps(41,jump-none)" x="119.2" y="394">integration, agents, retrieval and document processing. I like systems</text>
+<text class="l" style="animation-delay:3.11s;animation-timing-function:steps(41,jump-none)" x="119.2" y="416">that are simple enough to reason about and honest enough to say when they</text>
+<text class="l" style="animation-delay:3.29s;animation-timing-function:steps(12,jump-none)" x="119.2" y="438">are broken.</text>
+<text class="l h" style="animation-delay:3.46s;animation-timing-function:steps(8,jump-none)" x="52" y="482">OPTIONS</text>
+<g class="l" style="animation-delay:3.63s;animation-timing-function:steps(13,jump-none)"><text class="h" x="119.2" y="504">--test-first</text><text x="292.0" y="504">A failing test first, then the code that makes it pass.</text></g>
+<g class="l" style="animation-delay:3.81s;animation-timing-function:steps(14,jump-none)"><text class="h" x="119.2" y="548">--fail-loudly</text><text x="292.0" y="548">No magic fallbacks. When something is wrong, it fails</text></g>
+<text class="l" style="animation-delay:3.98s;animation-timing-function:steps(41,jump-none)" x="292.0" y="570">where you can see it, and says what is wrong.</text>
+<g class="l" style="animation-delay:4.16s;animation-timing-function:steps(16,jump-none)"><text class="h" x="119.2" y="614">--dont-know-yet</text><text x="292.0" y="614">An honest "I don't know yet" beats a confident guess.</text></g>
+<text class="l" style="animation-delay:4.33s;animation-timing-function:steps(28,jump-none)" x="292.0" y="636">Measure first, then say it.</text>
+<g class="l" style="animation-delay:4.50s;animation-timing-function:steps(14,jump-none)"><text class="h" x="119.2" y="680">--no-new-debt</text><text x="292.0" y="680">Whatever a change made worse, that change fixes. Later</text></g>
+<text class="l" style="animation-delay:4.68s;animation-timing-function:steps(15,jump-none)" x="292.0" y="702">is not a plan.</text>
+<g class="l" style="animation-delay:4.85s;animation-timing-function:steps(14,jump-none)"><text class="h" x="119.2" y="746">--agent-first</text><text x="292.0" y="746">"IDEs are to software development what manual</text></g>
+<text class="l" style="animation-delay:5.03s;animation-timing-function:steps(41,jump-none)" x="292.0" y="768">transmission is to driving. Powerful, precise, and once</text>
+<text class="l" style="animation-delay:5.20s;animation-timing-function:steps(41,jump-none)" x="292.0" y="790">essential, but increasingly replaced by systems that</text>
+<text class="l" style="animation-delay:5.37s;animation-timing-function:steps(38,jump-none)" x="292.0" y="812">operate at a higher level of intent."</text>
+<text class="l h" style="animation-delay:5.55s;animation-timing-function:steps(9,jump-none)" x="52" y="856">BUILDING</text>
+<text class="l" style="animation-delay:5.72s;animation-timing-function:steps(41,jump-none)" x="119.2" y="878">Wondervonk — a SaaS that helps small and medium-sized businesses get the</text>
+<text class="l" style="animation-delay:5.90s;animation-timing-function:steps(27,jump-none)" x="119.2" y="900">benefits of generative AI.</text>
+<text class="l h" style="animation-delay:6.07s;animation-timing-function:steps(12,jump-none)" x="52" y="944">ENVIRONMENT</text>
+<text class="l" style="animation-delay:6.24s;animation-timing-function:steps(41,jump-none)" x="119.2" y="966">Linux is home. My daily system is Omarchy, an opinionated Arch-based</text>
+<text class="l" style="animation-delay:6.42s;animation-timing-function:steps(41,jump-none)" x="119.2" y="988">Linux on Hyprland. I live in the terminal and never quite stop tuning my</text>
+<text class="l" style="animation-delay:6.59s;animation-timing-function:steps(7,jump-none)" x="119.2" y="1010">setup.</text>
+<text class="l" style="animation-delay:6.77s;animation-timing-function:steps(41,jump-none)" x="119.2" y="1054">I'm a hacker in the original sense: when something behaves oddly, I take</text>
+<text class="l" style="animation-delay:6.94s;animation-timing-function:steps(41,jump-none)" x="119.2" y="1076">it apart until I understand it, and send the fix upstream.</text>
+<text class="l" style="animation-delay:7.11s;animation-timing-function:steps(41,jump-none)" x="119.2" y="1120">Away from the keyboard, I practise handstands and yoga, and I love hiking</text>
+<text class="l" style="animation-delay:7.29s;animation-timing-function:steps(37,jump-none)" x="119.2" y="1142">in the mountains with my girlfriend.</text>
+<text class="l h" style="animation-delay:7.46s;animation-timing-function:steps(8,jump-none)" x="52" y="1186">PATCHES</text>
+<text class="l u" style="animation-delay:7.63s;animation-timing-function:steps(21,jump-none)" x="119.2" y="1208">omacom/omarchy#12231</text>
+<text class="l" style="animation-delay:7.81s;animation-timing-function:steps(41,jump-none)" x="186.4" y="1230">local audio outputs are listed before network ones</text>
+<text class="l u" style="animation-delay:7.98s;animation-timing-function:steps(21,jump-none)" x="119.2" y="1252">spotweb/spotweb#1001</text>
+<text class="l" style="animation-delay:8.16s;animation-timing-function:steps(41,jump-none)" x="186.4" y="1274">search terms in non-Latin scripts were silently dropped; now they</text>
+<text class="l" style="animation-delay:8.33s;animation-timing-function:steps(15,jump-none)" x="186.4" y="1296">match (merged)</text>
+<text class="l u" style="animation-delay:8.50s;animation-timing-function:steps(21,jump-none)" x="119.2" y="1318">spotweb/spotweb#1000</text>
+<text class="l" style="animation-delay:8.68s;animation-timing-function:steps(41,jump-none)" x="186.4" y="1340">a Newznab category for UHD movie spots (merged)</text>
+<text class="l h" style="animation-delay:8.85s;animation-timing-function:steps(9,jump-none)" x="52" y="1384">SEE ALSO</text>
+<text class="l" style="animation-delay:9.03s;animation-timing-function:steps(25,jump-none)" x="119.2" y="1406">LinkedIn · wondervonk.ai</text>
+<rect class="cur" x="52" y="50" width="9.6" height="18"/>
+</g>
+<rect x="12" y="12" width="856" height="1470" rx="16" fill="url(#scan)"/>
+<rect class="flk" x="12" y="12" width="856" height="1470" rx="16" fill="#ffb000" opacity="0"/>
+<rect x="12" y="12" width="856" height="1470" rx="16" fill="url(#vig)"/>
+</svg>
