@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 1236 880 66" width="880" height="66" role="img" aria-label="spotweb/spotweb#1001: search terms in non-Latin scripts were silently dropped; now they match (merged)">
+<defs>
+<pattern id="scan" width="4" height="3" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000000" fill-opacity=".24"/></pattern>
+<radialGradient id="vig" cx="50%" cy="50%" r="75%"><stop offset="60%" stop-color="#000000" stop-opacity="0"/><stop offset="100%" stop-color="#000a03" stop-opacity=".6"/></radialGradient>
+<radialGradient id="bg" cx="50%" cy="40%" r="80%"><stop offset="0%" stop-color="#06160a"/><stop offset="100%" stop-color="#020803"/></radialGradient>
+<filter id="glow" filterUnits="userSpaceOnUse" x="0" y="1216" width="880" height="106"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;font-size:16px;fill:#41ff6e;white-space:pre}
+.h{fill:#b6ffc8;font-weight:700} .m{fill:#1f9e46} .u{fill:#7dffa0;text-decoration:underline}
+.b{fill:#b6ffc8} .m text{fill:#1f9e46} .big{font-size:34px}
+.l{opacity:0;animation-name:type;animation-duration:0.14s;animation-fill-mode:forwards}
+@keyframes type{0%{opacity:1;clip-path:inset(0 100% 0 0)}100%{opacity:1;clip-path:inset(0 0 0 0)}}
+.ap,.pg{opacity:0;animation:on .25s linear forwards} .rv{fill:#03140a}
+@keyframes on{0%,100%{opacity:1}}
+.dot{animation-duration:1.0s;animation-iteration-count:3;animation-fill-mode:both;animation-timing-function:step-end}
+.d1{animation-name:d1} .d2{animation-name:d2} .d3{animation-name:d3}
+@keyframes d1{0%{opacity:0}25%{opacity:1}100%{opacity:1}}
+@keyframes d2{0%{opacity:0}50%{opacity:1}100%{opacity:1}}
+@keyframes d3{0%{opacity:0}75%{opacity:1}100%{opacity:1}}
+.sess{animation:clr .25s linear 9.388s forwards}
+@keyframes clr{0%,100%{opacity:0}}
+.cur{fill:#41ff6e;animation:blink 1s steps(1) infinite,follow 18.648s step-end forwards}
+@keyframes blink{50%{opacity:0}}
+@keyframes follow{0.000%{transform:translate(0px,0px)}4.290%{transform:translate(19.2px,0px)}5.751%{transform:translate(28.8px,0px)}6.108%{transform:translate(38.4px,0px)}6.379%{transform:translate(48px,0px)}7.236%{transform:translate(57.6px,0px)}7.459%{transform:translate(67.2px,0px)}7.862%{transform:translate(76.8px,0px)}8.409%{transform:translate(86.4px,0px)}8.659%{transform:translate(96px,0px)}9.081%{transform:translate(105.6px,0px)}9.526%{transform:translate(115.2px,0px)}9.762%{transform:translate(124.8px,0px)}10.120%{transform:translate(134.4px,0px)}10.596%{transform:translate(144px,0px)}10.981%{transform:translate(153.6px,0px)}11.464%{transform:translate(163.2px,0px)}11.742%{transform:translate(172.8px,0px)}12.050%{transform:translate(182.4px,0px)}12.311%{transform:translate(192px,0px)}12.716%{transform:translate(201.6px,0px)}13.271%{transform:translate(211.2px,0px)}13.706%{transform:translate(220.8px,0px)}14.208%{transform:translate(230.4px,0px)}16.085%{transform:translate(259.2px,22px)}16.090%{transform:translate(259.2px,22px)}17.425%{transform:translate(268.8px,22px)}18.766%{transform:translate(278.4px,22px)}20.106%{transform:translate(288px,22px)}21.447%{transform:translate(259.2px,22px)}22.788%{transform:translate(268.8px,22px)}24.128%{transform:translate(278.4px,22px)}25.469%{transform:translate(288px,22px)}26.810%{transform:translate(259.2px,22px)}28.150%{transform:translate(268.8px,22px)}29.491%{transform:translate(278.4px,22px)}30.832%{transform:translate(288px,22px)}32.172%{transform:translate(288px,22px)}32.977%{transform:translate(96px,44px)}34.049%{transform:translate(0px,88px)}36.141%{transform:translate(182.4px,154px)}37.841%{transform:translate(192px,154px)}38.333%{transform:translate(201.6px,154px)}38.591%{transform:translate(211.2px,154px)}38.917%{transform:translate(220.8px,154px)}39.383%{transform:translate(230.4px,154px)}39.866%{transform:translate(240px,154px)}42.280%{transform:translate(182.4px,198px)}44.262%{transform:translate(192px,198px)}44.515%{transform:translate(201.6px,198px)}44.833%{transform:translate(211.2px,198px)}45.452%{transform:translate(220.8px,198px)}45.775%{transform:translate(230.4px,198px)}46.289%{transform:translate(240px,198px)}46.583%{transform:translate(249.6px,198px)}47.125%{transform:translate(259.2px,198px)}48.733%{transform:translate(0px,220px)}50.342%{transform:translate(0px,0px)}52.440%{transform:translate(0px,22px)}53.386%{transform:translate(0px,88px)}54.333%{transform:translate(0px,110px)}55.279%{transform:translate(0px,154px)}56.225%{transform:translate(0px,176px)}57.172%{transform:translate(0px,220px)}58.118%{transform:translate(0px,242px)}59.064%{transform:translate(0px,264px)}60.011%{transform:translate(0px,308px)}60.957%{transform:translate(0px,330px)}61.903%{transform:translate(0px,352px)}62.850%{transform:translate(0px,374px)}63.796%{transform:translate(0px,396px)}64.742%{transform:translate(0px,440px)}65.689%{transform:translate(0px,462px)}66.635%{transform:translate(0px,506px)}67.581%{transform:translate(0px,528px)}68.528%{transform:translate(0px,572px)}69.474%{transform:translate(0px,594px)}70.420%{transform:translate(0px,638px)}71.367%{transform:translate(0px,660px)}72.313%{transform:translate(0px,704px)}73.260%{transform:translate(0px,726px)}74.206%{transform:translate(0px,748px)}75.152%{transform:translate(0px,770px)}76.099%{transform:translate(0px,814px)}77.045%{transform:translate(0px,836px)}77.991%{transform:translate(0px,858px)}78.938%{transform:translate(0px,902px)}79.884%{transform:translate(0px,924px)}80.830%{transform:translate(0px,946px)}81.777%{transform:translate(0px,968px)}82.723%{transform:translate(0px,1012px)}83.669%{transform:translate(0px,1034px)}84.616%{transform:translate(0px,1078px)}85.562%{transform:translate(0px,1100px)}86.508%{transform:translate(0px,1144px)}87.455%{transform:translate(0px,1166px)}88.401%{transform:translate(0px,1188px)}89.347%{transform:translate(0px,1210px)}90.294%{transform:translate(0px,1232px)}91.240%{transform:translate(0px,1254px)}92.186%{transform:translate(0px,1276px)}93.133%{transform:translate(0px,1298px)}94.079%{transform:translate(0px,1342px)}95.025%{transform:translate(0px,1364px)}95.972%{transform:translate(0px,1386px)}96.918%{transform:translate(0px,1430px)}97.864%{transform:translate(0px,1452px)}98.811%{transform:translate(0px,1474px)}99.757%{transform:translate(0px,1496px)}99.946%{transform:translate(576px,1518px)}100%{transform:translate(576px,1518px)}}
+.flk{animation:flicker 4s steps(1) infinite}
+@keyframes flicker{0%{opacity:.035}33%{opacity:0}61%{opacity:.05}79%{opacity:.01}}
+@media (prefers-reduced-motion:reduce){
+.l,.pg{opacity:1;animation:none} .flk{animation:none;opacity:0} .sess{display:none}
+.cur{animation:none;transform:translate(576px,1518px)}
+}
+</style>
+<rect width="880" height="1626" rx="22" fill="#121a14"/>
+<rect x="12" y="12" width="856" height="1602" rx="16" fill="url(#bg)" stroke="#1c2e21" stroke-width="2"/>
+<g filter="url(#glow)">
+
+<text class="l" style="animation-delay:16.34s;animation-timing-function:steps(41,jump-none)" x="186.4" y="1230">local audio outputs are listed before network ones</text>
+<text class="l u" style="animation-delay:16.52s;animation-timing-function:steps(21,jump-none)" x="119.2" y="1252">spotweb/spotweb#1001</text>
+<text class="l" style="animation-delay:16.70s;animation-timing-function:steps(41,jump-none)" x="186.4" y="1274">search terms in non-Latin scripts were silently dropped; now they</text>
+<text class="l" style="animation-delay:16.87s;animation-timing-function:steps(15,jump-none)" x="186.4" y="1296">match (merged)</text>
+<text class="l u" style="animation-delay:17.05s;animation-timing-function:steps(21,jump-none)" x="119.2" y="1318">spotweb/spotweb#1000</text>
+<rect class="cur" x="52" y="50" width="9.6" height="18"/>
+</g>
+<rect x="12" y="12" width="856" height="1602" rx="16" fill="url(#scan)"/>
+<rect class="flk" x="12" y="12" width="856" height="1602" rx="16" fill="#41ff6e" opacity="0"/>
+<rect x="12" y="12" width="856" height="1602" rx="16" fill="url(#vig)"/>
+</svg>
