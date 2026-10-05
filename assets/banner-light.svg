@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 240" width="880" height="240" role="img" aria-labelledby="t d">
 <title id="t">KRIS(1)</title>
-<desc id="d">Kris Kater, backend engineer in Amsterdam. Mike, Echo, Oscar, Whiskey: the handle spells MEOW.</desc>
+<desc id="d">KRIS(1), General Commands Manual. Kris Kater, backend engineer in Amsterdam. Synopsis: kris, with the options backend, linux and generative AI.</desc>
 <style>
 .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
 .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif}
@@ -20,12 +20,11 @@
 <text class="mono muted" x="30" y="160" font-size="15">backend engineer · amsterdam · c# / .net</text>
 <text class="mono fg" x="30" y="206" font-size="16" textLength="200" lengthAdjust="spacingAndGlyphs"><tspan class="accent">$</tspan> kris --fail-loudly</text>
 <rect class="cursor" x="236" y="192" width="9" height="18"/>
-<line x1="620" y1="72" x2="620" y2="214" stroke="#d8dee4"/>
-<g class="mono" font-size="22">
-  <text x="652" y="92"><tspan class="accent" font-weight="700">M</tspan><tspan class="muted">ike</tspan></text>
-  <text x="652" y="122"><tspan class="accent" font-weight="700">E</tspan><tspan class="muted">cho</tspan></text>
-  <text x="652" y="152"><tspan class="accent" font-weight="700">O</tspan><tspan class="muted">scar</tspan></text>
-  <text x="652" y="182"><tspan class="accent" font-weight="700">W</tspan><tspan class="muted">hiskey</tspan></text>
+<line x1="604" y1="72" x2="604" y2="214" stroke="#d8dee4"/>
+<text class="mono muted" x="632" y="94" font-size="12" font-weight="700" letter-spacing="1">SYNOPSIS</text>
+<g class="mono" font-size="16">
+  <text x="632" y="132"><tspan class="fg" font-weight="700">kris</tspan><tspan class="muted"> [</tspan><tspan class="accent">--backend</tspan><tspan class="muted">]</tspan></text>
+  <text x="680" y="162"><tspan class="muted">[</tspan><tspan class="accent">--linux</tspan><tspan class="muted">]</tspan></text>
+  <text x="680" y="192"><tspan class="muted">[</tspan><tspan class="accent">--generative-ai</tspan><tspan class="muted">]</tspan></text>
 </g>
-<text class="mono muted" x="852" y="216" font-size="12" text-anchor="end">read the first column</text>
 </svg>
