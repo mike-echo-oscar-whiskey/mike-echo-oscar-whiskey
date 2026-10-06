@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 1038" width="880" height="1038" role="img" aria-label="A terminal runs ssh guest@wondervonk.ai, is asked to accept the unknown ED25519 host key, answers yes, connects and shows a welcome message: Jai Siya Ram, Shri Hanumate namah, uptime 41 days 6:12, last login from somewhere on the internet. whoami answers guest, then man kris opens the manual page. KRIS(1), General Commands Manual, KRIS(1). Kris Kater ai engineer · amsterdam · 25+ years in software SYNOPSIS kris [--ai-engineering] [--backend] [--linux] NAME kris — AI engineer in Amsterdam. Generative AI put to production use, on a backend foundation of C# and .NET. DESCRIPTION I have built software for more than 25 years, the last 16 as a freelancer. Today that work is generative AI in production: LLM integration, AI agents, retrieval (RAG) and document processing. Underneath sits what I have always built: backends in C# and .NET, architecture and APIs with clean boundaries. I like systems that are simple enough to reason about and honest enough to say when they are broken. OPTIONS --test-first: A failing test first, then the code that makes it pass. --fail-loudly: No magic fallbacks. When something is wrong, it fails where you can see it, and says what is wrong. --dont-know-yet: An honest &quot;I don't know yet&quot; beats a confident guess. Measure first, then say it. --no-new-debt: Whatever a change made worse, that change fixes. Later is not a plan. --untrusted-output: Model output is input, not truth: forced into a schema and validated before anything acts on it. --agent-first: &quot;IDEs are to software development what manual transmission is to driving. Powerful, precise, and once essential, but increasingly replaced by systems that operate at a higher level of intent.&quot; BUILDING">
+<defs>
+<pattern id="scan" width="4" height="3" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000000" fill-opacity=".24"/></pattern>
+<radialGradient id="vig" cx="50%" cy="50%" r="75%"><stop offset="60%" stop-color="#000000" stop-opacity="0"/><stop offset="100%" stop-color="#000a03" stop-opacity=".6"/></radialGradient>
+<radialGradient id="bg" cx="50%" cy="40%" r="80%"><stop offset="0%" stop-color="#06160a"/><stop offset="100%" stop-color="#020803"/></radialGradient>
+<filter id="glow" filterUnits="userSpaceOnUse" x="0" y="-20" width="880" height="1078"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;font-size:16px;fill:#41ff6e;white-space:pre}
+.h{fill:#b6ffc8;font-weight:700} .m{fill:#1f9e46} .u{fill:#7dffa0;text-decoration:underline}
+.b{fill:#b6ffc8} .m text{fill:#1f9e46} .big{font-size:34px}
+.l{opacity:0;animation-name:type;animation-duration:0.14s;animation-fill-mode:forwards}
+@keyframes type{0%{opacity:1;clip-path:inset(0 100% 0 0)}100%{opacity:1;clip-path:inset(0 0 0 0)}}
+.ap,.pg{opacity:0;animation:on .25s linear forwards} .rv{fill:#03140a}
+@keyframes on{0%,100%{opacity:1}}
+.sess{animation:clr .25s linear 13.164s forwards}
+@keyframes clr{0%,100%{opacity:0}}
+.cur{fill:#41ff6e;animation:blink 1s steps(1) infinite,follow 23.483s step-end forwards}
+@keyframes blink{50%{opacity:0}}
+@keyframes follow{0.000%{transform:translate(0px,0px)}3.407%{transform:translate(19.2px,0px)}4.567%{transform:translate(28.8px,0px)}4.850%{transform:translate(38.4px,0px)}5.066%{transform:translate(48px,0px)}5.746%{transform:translate(57.6px,0px)}5.923%{transform:translate(67.2px,0px)}6.243%{transform:translate(76.8px,0px)}6.677%{transform:translate(86.4px,0px)}6.876%{transform:translate(96px,0px)}7.211%{transform:translate(105.6px,0px)}7.564%{transform:translate(115.2px,0px)}7.751%{transform:translate(124.8px,0px)}8.036%{transform:translate(134.4px,0px)}8.414%{transform:translate(144px,0px)}8.720%{transform:translate(153.6px,0px)}9.104%{transform:translate(163.2px,0px)}9.324%{transform:translate(172.8px,0px)}9.569%{transform:translate(182.4px,0px)}9.776%{transform:translate(192px,0px)}10.097%{transform:translate(201.6px,0px)}10.538%{transform:translate(211.2px,0px)}10.884%{transform:translate(220.8px,0px)}11.282%{transform:translate(230.4px,0px)}11.568%{transform:translate(240px,0px)}13.058%{transform:translate(0px,22px)}14.975%{transform:translate(739.2px,22px)}15.358%{transform:translate(748.8px,44px)}15.741%{transform:translate(393.6px,66px)}16.124%{transform:translate(662.4px,88px)}20.773%{transform:translate(672px,88px)}20.978%{transform:translate(681.6px,88px)}21.237%{transform:translate(691.2px,88px)}22.515%{transform:translate(0px,110px)}22.727%{transform:translate(768px,110px)}22.813%{transform:translate(0px,132px)}29.200%{transform:translate(441.6px,154px)}29.456%{transform:translate(470.4px,176px)}29.711%{transform:translate(268.8px,220px)}29.967%{transform:translate(432px,242px)}30.648%{transform:translate(192px,286px)}45.922%{transform:translate(201.6px,286px)}46.306%{transform:translate(211.2px,286px)}46.603%{transform:translate(220.8px,286px)}46.804%{transform:translate(230.4px,286px)}47.056%{transform:translate(240px,286px)}47.292%{transform:translate(249.6px,286px)}48.570%{transform:translate(48px,308px)}49.208%{transform:translate(192px,330px)}50.742%{transform:translate(201.6px,330px)}51.151%{transform:translate(211.2px,330px)}51.384%{transform:translate(220.8px,330px)}52.070%{transform:translate(230.4px,330px)}52.498%{transform:translate(240px,330px)}52.689%{transform:translate(249.6px,330px)}52.974%{transform:translate(259.2px,330px)}53.291%{transform:translate(268.8px,330px)}54.568%{transform:translate(0px,352px)}56.059%{transform:translate(0px,0px)}57.725%{transform:translate(0px,22px)}58.476%{transform:translate(0px,88px)}59.228%{transform:translate(0px,110px)}59.979%{transform:translate(0px,154px)}60.731%{transform:translate(0px,176px)}61.482%{transform:translate(0px,220px)}62.233%{transform:translate(0px,242px)}62.985%{transform:translate(0px,264px)}63.736%{transform:translate(0px,308px)}64.488%{transform:translate(0px,330px)}65.239%{transform:translate(0px,352px)}65.991%{transform:translate(0px,374px)}66.742%{transform:translate(0px,418px)}67.494%{transform:translate(0px,440px)}68.245%{transform:translate(0px,462px)}68.997%{transform:translate(0px,484px)}69.748%{transform:translate(0px,528px)}70.500%{transform:translate(0px,550px)}71.251%{transform:translate(0px,594px)}72.003%{transform:translate(0px,616px)}72.754%{transform:translate(0px,660px)}73.506%{transform:translate(0px,682px)}74.257%{transform:translate(0px,726px)}75.008%{transform:translate(0px,748px)}75.760%{transform:translate(0px,792px)}76.511%{transform:translate(0px,814px)}77.263%{transform:translate(0px,836px)}78.014%{transform:translate(0px,880px)}78.766%{transform:translate(0px,902px)}79.517%{transform:translate(0px,924px)}80.269%{transform:translate(0px,946px)}81.020%{transform:translate(0px,990px)}81.772%{transform:translate(0px,1012px)}82.523%{transform:translate(0px,1034px)}83.275%{transform:translate(0px,1078px)}84.026%{transform:translate(0px,1100px)}84.778%{transform:translate(0px,1122px)}85.529%{transform:translate(0px,1144px)}86.281%{transform:translate(0px,1188px)}87.032%{transform:translate(0px,1210px)}87.784%{transform:translate(0px,1254px)}88.535%{transform:translate(0px,1276px)}89.286%{transform:translate(0px,1320px)}90.038%{transform:translate(0px,1342px)}90.789%{transform:translate(0px,1364px)}91.541%{transform:translate(0px,1386px)}92.292%{transform:translate(0px,1408px)}93.044%{transform:translate(0px,1430px)}93.795%{transform:translate(0px,1452px)}94.547%{transform:translate(0px,1474px)}95.298%{transform:translate(0px,1518px)}96.050%{transform:translate(0px,1540px)}96.801%{transform:translate(0px,1562px)}97.553%{transform:translate(0px,1606px)}98.304%{transform:translate(0px,1628px)}99.056%{transform:translate(0px,1650px)}99.807%{transform:translate(0px,1672px)}99.957%{transform:translate(576px,1694px)}100%{transform:translate(576px,1694px)}}
+.bell{opacity:0;animation:bell .05s linear 6.857s forwards,unbell .05s linear 6.997s forwards}
+@keyframes bell{0%,100%{opacity:.35}} @keyframes unbell{0%,100%{opacity:0}}
+.flk{animation:flicker 4s steps(1) infinite}
+@keyframes flicker{0%{opacity:.035}33%{opacity:0}61%{opacity:.05}79%{opacity:.01}}
+@media (prefers-reduced-motion:reduce){
+.l,.pg{opacity:1;animation:none} .flk{animation:none;opacity:0} .sess{display:none} .bell{display:none}
+.cur{animation:none;transform:translate(576px,1694px)}
+}
+</style>
+<rect width="880" height="1803" rx="22" fill="#121a14"/>
+<rect x="12" y="12" width="856" height="1779" rx="16" fill="url(#bg)" stroke="#1c2e21" stroke-width="2"/>
+<g filter="url(#glow)">
+<g class="sess"><text class="ap m" style="animation-delay:0.800s" x="52 61.6" y="64">$ </text>
+<text class="ap " style="animation-delay:1.073s" x="71.2" y="64">s</text>
+<text class="ap " style="animation-delay:1.139s" x="80.8" y="64">s</text>
+<text class="ap " style="animation-delay:1.190s" x="90.4" y="64">h</text>
+<text class="ap " style="animation-delay:1.349s" x="100" y="64"> </text>
+<text class="ap " style="animation-delay:1.391s" x="109.6" y="64">g</text>
+<text class="ap " style="animation-delay:1.466s" x="119.2" y="64">u</text>
+<text class="ap " style="animation-delay:1.568s" x="128.8" y="64">e</text>
+<text class="ap " style="animation-delay:1.615s" x="138.4" y="64">s</text>
+<text class="ap " style="animation-delay:1.693s" x="148" y="64">t</text>
+<text class="ap " style="animation-delay:1.776s" x="157.6" y="64">@</text>
+<text class="ap " style="animation-delay:1.820s" x="167.2" y="64">w</text>
+<text class="ap " style="animation-delay:1.887s" x="176.8" y="64">o</text>
+<text class="ap " style="animation-delay:1.976s" x="186.4" y="64">n</text>
+<text class="ap " style="animation-delay:2.048s" x="196" y="64">d</text>
+<text class="ap " style="animation-delay:2.138s" x="205.6" y="64">e</text>
+<text class="ap " style="animation-delay:2.190s" x="215.2" y="64">r</text>
+<text class="ap " style="animation-delay:2.247s" x="224.8" y="64">v</text>
+<text class="ap " style="animation-delay:2.296s" x="234.4" y="64">o</text>
+<text class="ap " style="animation-delay:2.371s" x="244" y="64">n</text>
+<text class="ap " style="animation-delay:2.475s" x="253.6" y="64">k</text>
+<text class="ap " style="animation-delay:2.556s" x="263.2" y="64">.</text>
+<text class="ap " style="animation-delay:2.649s" x="272.8" y="64">a</text>
+<text class="ap " style="animation-delay:2.717s" x="282.4" y="64">i</text>
+<text class="ap " style="animation-delay:3.517s" x="52 61.6 71.2 80.8 90.4 100 109.6 119.2 128.8 138.4 148 157.6 167.2 176.8 186.4 196 205.6 215.2 224.8 234.4 244 253.6 263.2 272.8 282.4 292 301.6 311.2 320.8 330.4 340 349.6 359.2 368.8 378.4 388 397.6 407.2 416.8 426.4 436 445.6 455.2 464.8 474.4 484 493.6 503.2 512.8 522.4 532 541.6 551.2 560.8 570.4 580 589.6 599.2 608.8 618.4 628 637.6 647.2 656.8 666.4 676 685.6 695.2 704.8 714.4 724 733.6 743.2 752.8 762.4 772 781.6" y="86">The authenticity of host 'wondervonk.ai (203.0.113.42)' can't be established.</text>
+<text class="ap " style="animation-delay:3.607s" x="52 61.6 71.2 80.8 90.4 100 109.6 119.2 128.8 138.4 148 157.6 167.2 176.8 186.4 196 205.6 215.2 224.8 234.4 244 253.6 263.2 272.8 282.4 292 301.6 311.2 320.8 330.4 340 349.6 359.2 368.8 378.4 388 397.6 407.2 416.8 426.4 436 445.6 455.2 464.8 474.4 484 493.6 503.2 512.8 522.4 532 541.6 551.2 560.8 570.4 580 589.6 599.2 608.8 618.4 628 637.6 647.2 656.8 666.4 676 685.6 695.2 704.8 714.4 724 733.6 743.2 752.8 762.4 772 781.6 791.2" y="108">ED25519 key fingerprint is SHA256:kR7vQx2mT9pLw4ZcN8bYfH3sJdE6uA1oGiV5nXyWq0M.</text>
+<text class="ap " style="animation-delay:3.697s" x="52 61.6 71.2 80.8 90.4 100 109.6 119.2 128.8 138.4 148 157.6 167.2 176.8 186.4 196 205.6 215.2 224.8 234.4 244 253.6 263.2 272.8 282.4 292 301.6 311.2 320.8 330.4 340 349.6 359.2 368.8 378.4 388 397.6 407.2 416.8 426.4 436" y="130">This key is not known by any other names.</text>
+<text class="ap " style="animation-delay:3.787s" x="52 61.6 71.2 80.8 90.4 100 109.6 119.2 128.8 138.4 148 157.6 167.2 176.8 186.4 196 205.6 215.2 224.8 234.4 244 253.6 263.2 272.8 282.4 292 301.6 311.2 320.8 330.4 340 349.6 359.2 368.8 378.4 388 397.6 407.2 416.8 426.4 436 445.6 455.2 464.8 474.4 484 493.6 503.2 512.8 522.4 532 541.6 551.2 560.8 570.4 580 589.6 599.2 608.8 618.4 628 637.6 647.2 656.8 666.4 676 685.6 695.2 704.8" y="152">Are you sure you want to continue connecting (yes/no/[fingerprint])? </text>
+<text class="ap " style="animation-delay:4.878s" x="714.4" y="152">y</text>
+<text class="ap " style="animation-delay:4.926s" x="724" y="152">e</text>
+<text class="ap " style="animation-delay:4.987s" x="733.6" y="152">s</text>
+<text class="ap " style="animation-delay:5.337s" x="52 61.6 71.2 80.8 90.4 100 109.6 119.2 128.8 138.4 148 157.6 167.2 176.8 186.4 196 205.6 215.2 224.8 234.4 244 253.6 263.2 272.8 282.4 292 301.6 311.2 320.8 330.4 340 349.6 359.2 368.8 378.4 388 397.6 407.2 416.8 426.4 436 445.6 455.2 464.8 474.4 484 493.6 503.2 512.8 522.4 532 541.6 551.2 560.8 570.4 580 589.6 599.2 608.8 618.4 628 637.6 647.2 656.8 666.4 676 685.6 695.2 704.8 714.4 724 733.6 743.2 752.8 762.4 772 781.6 791.2 800.8 810.4" y="174">Warning: Permanently added 'wondervonk.ai' (ED25519) to the list of known hosts.</text>
+<text class="ap b" style="animation-delay:6.857s" x="378.4 388 397.6 407.2 416.8 426.4 436 445.6 455.2 464.8 474.4 484" y="218">Jai Siya Ram</text>
+<text class="ap b" style="animation-delay:6.917s" x="340 349.6 359.2 368.8 378.4 388 397.6 407.2 416.8 426.4 436 445.6 455.2 464.8 474.4 484 493.6 503.2 512.8" y="240">Shri Hanumate namah</text>
+<text class="ap " style="animation-delay:6.977s" x="71.2 80.8 90.4 100 109.6 119.2 128.8 138.4 148 157.6 167.2 176.8 186.4 196 205.6 215.2 224.8 234.4 244 253.6 263.2 272.8 282.4 292 301.6 311.2" y="284">Uptime:      41 days, 6:12</text>
+<text class="ap " style="animation-delay:7.037s" x="71.2 80.8 90.4 100 109.6 119.2 128.8 138.4 148 157.6 167.2 176.8 186.4 196 205.6 215.2 224.8 234.4 244 253.6 263.2 272.8 282.4 292 301.6 311.2 320.8 330.4 340 349.6 359.2 368.8 378.4 388 397.6 407.2 416.8 426.4 436 445.6 455.2 464.8 474.4" y="306">Last login:  from somewhere on the internet</text>
+<text class="ap" style="animation-delay:7.197s" x="52 61.6 71.2 80.8 90.4 100 109.6 119.2 128.8 138.4 148 157.6 167.2 176.8 186.4 196 205.6 215.2 224.8 234.4" y="350"><tspan class="b">guest@wondervonk</tspan><tspan class="m">:~$ </tspan></text>
+<text class="ap " style="animation-delay:10.784s" x="244" y="350">w</text>
+<text class="ap " style="animation-delay:10.874s" x="253.6" y="350">h</text>
+<text class="ap " style="animation-delay:10.944s" x="263.2" y="350">o</text>
+<text class="ap " style="animation-delay:10.991s" x="272.8" y="350">a</text>
+<text class="ap " style="animation-delay:11.050s" x="282.4" y="350">m</text>
+<text class="ap " style="animation-delay:11.106s" x="292" y="350">i</text>
+<text class="ap " style="animation-delay:11.406s" x="52 61.6 71.2 80.8 90.4" y="372">guest</text>
+<text class="ap" style="animation-delay:11.556s" x="52 61.6 71.2 80.8 90.4 100 109.6 119.2 128.8 138.4 148 157.6 167.2 176.8 186.4 196 205.6 215.2 224.8 234.4" y="394"><tspan class="b">guest@wondervonk</tspan><tspan class="m">:~$ </tspan></text>
+<text class="ap " style="animation-delay:11.916s" x="244" y="394">m</text>
+<text class="ap " style="animation-delay:12.012s" x="253.6" y="394">a</text>
+<text class="ap " style="animation-delay:12.067s" x="263.2" y="394">n</text>
+<text class="ap " style="animation-delay:12.228s" x="272.8" y="394"> </text>
+<text class="ap " style="animation-delay:12.328s" x="282.4" y="394">k</text>
+<text class="ap " style="animation-delay:12.373s" x="292" y="394">r</text>
+<text class="ap " style="animation-delay:12.440s" x="301.6" y="394">i</text>
+<text class="ap " style="animation-delay:12.514s" x="311.2" y="394">s</text></g>
+<g class="l m" style="animation-delay:13.41s;animation-timing-function:steps(41,jump-none)"><text x="52" y="64">KRIS(1)</text><text x="330.4" y="64">General Commands Manual</text><text x="752.8" y="64">KRIS(1)</text></g>
+<text class="l h big" style="animation-delay:13.59s;animation-timing-function:steps(11,jump-none)" x="52" y="130">Kris Kater</text>
+<text class="l m" style="animation-delay:13.77s;animation-timing-function:steps(41,jump-none)" x="52" y="152">ai engineer · amsterdam · 25+ years in software</text>
+<text class="l h" style="animation-delay:13.94s;animation-timing-function:steps(9,jump-none)" x="52" y="196">SYNOPSIS</text>
+<text class="l" style="animation-delay:14.12s;animation-timing-function:steps(41,jump-none)" x="119.2" y="218"><tspan class="h">kris</tspan> [<tspan class="u">--ai-engineering</tspan>] [<tspan class="u">--backend</tspan>] [<tspan class="u">--linux</tspan>]</text>
+<text class="l h" style="animation-delay:14.30s;animation-timing-function:steps(5,jump-none)" x="52" y="262">NAME</text>
+<text class="l" style="animation-delay:14.47s;animation-timing-function:steps(41,jump-none)" x="119.2" y="284">kris — AI engineer in Amsterdam. Generative AI put to production use, on</text>
+<text class="l" style="animation-delay:14.65s;animation-timing-function:steps(37,jump-none)" x="119.2" y="306">a backend foundation of C# and .NET.</text>
+<text class="l h" style="animation-delay:14.83s;animation-timing-function:steps(12,jump-none)" x="52" y="350">DESCRIPTION</text>
+<text class="l" style="animation-delay:15.00s;animation-timing-function:steps(41,jump-none)" x="119.2" y="372">I have built software for more than 25 years, the last 16 as a</text>
+<text class="l" style="animation-delay:15.18s;animation-timing-function:steps(41,jump-none)" x="119.2" y="394">freelancer. Today that work is generative AI in production: LLM</text>
+<text class="l" style="animation-delay:15.36s;animation-timing-function:steps(41,jump-none)" x="119.2" y="416">integration, AI agents, retrieval (RAG) and document processing.</text>
+<text class="l" style="animation-delay:15.53s;animation-timing-function:steps(41,jump-none)" x="119.2" y="460">Underneath sits what I have always built: backends in C# and .NET,</text>
+<text class="l" style="animation-delay:15.71s;animation-timing-function:steps(41,jump-none)" x="119.2" y="482">architecture and APIs with clean boundaries. I like systems that are</text>
+<text class="l" style="animation-delay:15.89s;animation-timing-function:steps(41,jump-none)" x="119.2" y="504">simple enough to reason about and honest enough to say when they are</text>
+<text class="l" style="animation-delay:16.06s;animation-timing-function:steps(8,jump-none)" x="119.2" y="526">broken.</text>
+<text class="l h" style="animation-delay:16.24s;animation-timing-function:steps(8,jump-none)" x="52" y="570">OPTIONS</text>
+<g class="l" style="animation-delay:16.41s;animation-timing-function:steps(13,jump-none)"><text class="h" x="119.2" y="592">--test-first</text><text x="292.0" y="592">A failing test first, then the code that makes it pass.</text></g>
+<g class="l" style="animation-delay:16.59s;animation-timing-function:steps(14,jump-none)"><text class="h" x="119.2" y="636">--fail-loudly</text><text x="292.0" y="636">No magic fallbacks. When something is wrong, it fails</text></g>
+<text class="l" style="animation-delay:16.77s;animation-timing-function:steps(41,jump-none)" x="292.0" y="658">where you can see it, and says what is wrong.</text>
+<g class="l" style="animation-delay:16.94s;animation-timing-function:steps(16,jump-none)"><text class="h" x="119.2" y="702">--dont-know-yet</text><text x="292.0" y="702">An honest "I don't know yet" beats a confident guess.</text></g>
+<text class="l" style="animation-delay:17.12s;animation-timing-function:steps(28,jump-none)" x="292.0" y="724">Measure first, then say it.</text>
+<g class="l" style="animation-delay:17.30s;animation-timing-function:steps(14,jump-none)"><text class="h" x="119.2" y="768">--no-new-debt</text><text x="292.0" y="768">Whatever a change made worse, that change fixes. Later</text></g>
+<text class="l" style="animation-delay:17.47s;animation-timing-function:steps(15,jump-none)" x="292.0" y="790">is not a plan.</text>
+<text class="l h" style="animation-delay:17.65s;animation-timing-function:steps(19,jump-none)" x="119.2" y="834">--untrusted-output</text>
+<text class="l" style="animation-delay:17.83s;animation-timing-function:steps(41,jump-none)" x="292.0" y="856">Model output is input, not truth: forced into a schema</text>
+<text class="l" style="animation-delay:18.00s;animation-timing-function:steps(41,jump-none)" x="292.0" y="878">and validated before anything acts on it.</text>
+<g class="l" style="animation-delay:18.18s;animation-timing-function:steps(14,jump-none)"><text class="h" x="119.2" y="922">--agent-first</text><text x="292.0" y="922">"IDEs are to software development what manual</text></g>
+<text class="l" style="animation-delay:18.36s;animation-timing-function:steps(41,jump-none)" x="292.0" y="944">transmission is to driving. Powerful, precise, and once</text>
+<text class="l" style="animation-delay:18.53s;animation-timing-function:steps(41,jump-none)" x="292.0" y="966">essential, but increasingly replaced by systems that</text>
+<text class="l" style="animation-delay:18.71s;animation-timing-function:steps(38,jump-none)" x="292.0" y="988">operate at a higher level of intent."</text>
+<text class="l h" style="animation-delay:18.89s;animation-timing-function:steps(9,jump-none)" x="52" y="1032">BUILDING</text>
+<text class="l" style="animation-delay:19.06s;animation-timing-function:steps(41,jump-none)" x="119.2" y="1054"><tspan class="u">Wondervonk</tspan> — a SaaS that helps small and medium-sized businesses get the</text>
+<rect class="cur" x="52" y="50" width="9.6" height="18"/>
+</g>
+<rect class="bell" x="12" y="12" width="856" height="1779" rx="16" fill="#b6ffc8"/>
+<rect x="12" y="12" width="856" height="1779" rx="16" fill="url(#scan)"/>
+<rect class="flk" x="12" y="12" width="856" height="1779" rx="16" fill="#41ff6e" opacity="0"/>
+<rect x="12" y="12" width="856" height="1779" rx="16" fill="url(#vig)"/>
+</svg>
