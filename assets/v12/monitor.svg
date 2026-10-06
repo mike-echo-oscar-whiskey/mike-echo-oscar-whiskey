@@ -1,0 +1,312 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 792" width="880" height="792" role="img" aria-labelledby="t d">
+<title id="t">Kris Kater: man kris on a CRT monitor</title>
+<desc id="d">$ ssh guest@wondervonk.ai
+The authenticity of host 'wondervonk.ai (203.0.113.42)' can't be established.
+ED25519 key fingerprint is SHA256:kR7vQx2mT9pLw4ZcN8bYfH3sJdE6uA1oGiV5nXyWq0M.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'wondervonk.ai' (ED25519) to the list of known hosts.
+
+                                  Jai Siya Ram
+                              Shri Hanumate namah
+
+  Uptime:      41 days, 6:12
+  Last login:  from somewhere on the internet
+
+guest@wondervonk:~$ whoami
+guest
+guest@wondervonk:~$ man kris
+
+KRIS(1)                      General Commands Manual                     KRIS(1)
+
+Kris Kater
+ai engineer · amsterdam · 25+ years in software
+
+SYNOPSIS
+       kris [--ai-engineering] [--backend] [--linux]
+
+NAME
+       kris — AI engineer in Amsterdam. Generative AI put to production use, on
+       a backend foundation of C# and .NET.
+
+DESCRIPTION
+       I have built software for more than 25 years, the last 16 as a
+       freelancer. Today that work is generative AI in production: LLM
+       integration, AI agents, retrieval (RAG) and document processing.
+
+       Underneath sits what I have always built: backends in C# and .NET,
+       architecture and APIs with clean boundaries. I like systems that are
+       simple enough to reason about and honest enough to say when they are
+       broken.
+
+OPTIONS
+       --test-first      A failing test first, then the code that makes it pass.
+
+       --fail-loudly     No magic fallbacks. When something is wrong, it fails
+                         where you can see it, and says what is wrong.
+
+       --dont-know-yet   An honest "I don't know yet" beats a confident guess.
+                         Measure first, then say it.
+
+       --no-new-debt     Whatever a change made worse, that change fixes. Later
+                         is not a plan.
+
+       --untrusted-output
+                         Model output is input, not truth: forced into a schema
+                         and validated before anything acts on it.
+
+       --agent-first     "IDEs are to software development what manual
+                         transmission is to driving. Powerful, precise, and once
+                         essential, but increasingly replaced by systems that
+                         operate at a higher level of intent."
+
+BUILDING
+       Wondervonk — a SaaS that helps small and medium-sized businesses get the
+       benefits of generative AI.
+
+ENVIRONMENT
+       Linux is home. My daily system is Omarchy, an opinionated Arch-based
+       Linux on Hyprland. I live in the terminal and never quite stop tuning my
+       setup.
+
+       I'm a hacker in the original sense: when something behaves oddly, I take
+       it apart until I understand it, and send the fix upstream.
+
+       Away from the keyboard, I practise handstands and yoga, and I love hiking
+       in the mountains with my girlfriend. I speak Dutch and English.
+
+PATCHES
+       omacom/omarchy#12231
+              local audio outputs are listed before network ones
+       spotweb/spotweb#1001
+              search terms in non-Latin scripts were silently dropped; now they
+              match (merged)
+       spotweb/spotweb#1000
+              a Newznab category for UHD movie spots (merged)
+
+SIGNATURES
+       Every commit is signed. OpenPGP (Ed25519):
+       FDB9 561F CC5F 4399 744C  6441 13DF E453 0C28 527B
+
+SEE ALSO
+       LinkedIn
+       wondervonk.ai
+       The quickest way to reach me is LinkedIn.</desc>
+<defs>
+<linearGradient id="case" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e6ddc6"/><stop offset=".55" stop-color="#d6cbaf"/><stop offset="1" stop-color="#bfb294"/></linearGradient>
+<linearGradient id="rim" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity=".7"/><stop offset=".5" stop-color="#ffffff" stop-opacity="0"/><stop offset="1" stop-color="#5c5240" stop-opacity=".5"/></linearGradient>
+<linearGradient id="slope" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9f9276"/><stop offset=".12" stop-color="#b8ab8d"/><stop offset=".9" stop-color="#cdc2a6"/><stop offset="1" stop-color="#e9e1cc"/></linearGradient>
+<linearGradient id="neck" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8f8368"/><stop offset="1" stop-color="#b9ac8e"/></linearGradient>
+<linearGradient id="btn" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ece5d2"/><stop offset="1" stop-color="#c3b799"/></linearGradient>
+<radialGradient id="off" cx="50%" cy="45%" r="70%"><stop offset="0" stop-color="#1c221e"/><stop offset="1" stop-color="#090c0a"/></radialGradient>
+<radialGradient id="bg" cx="50%" cy="40%" r="80%"><stop offset="0%" stop-color="#06160a"/><stop offset="100%" stop-color="#020803"/></radialGradient>
+<radialGradient id="vig" cx="50%" cy="50%" r="72%"><stop offset="58%" stop-color="#000000" stop-opacity="0"/><stop offset="100%" stop-color="#000a03" stop-opacity=".75"/></radialGradient>
+<radialGradient id="refl" cx="28%" cy="18%" r="65%"><stop offset="0" stop-color="#ffffff" stop-opacity=".11"/><stop offset=".55" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+<radialGradient id="ledglow"><stop offset="0" stop-color="#7dff9a" stop-opacity=".7"/><stop offset="1" stop-color="#7dff9a" stop-opacity="0"/></radialGradient>
+<radialGradient id="ambglow"><stop offset="0" stop-color="#ffb030" stop-opacity=".7"/><stop offset="1" stop-color="#ffb030" stop-opacity="0"/></radialGradient>
+<pattern id="scan" width="4" height="3" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000000" fill-opacity=".24"/></pattern>
+<clipPath id="glass"><path d="M58 32Q440.0 27.0 822 32Q848 32 848 58Q853.0 338.0 848 618Q848 644 822 644Q440.0 649.0 58 644Q32 644 32 618Q27.0 338.0 32 58Q32 32 58 32Z"/></clipPath>
+<clipPath id="pagecl"><rect x="32" y="50" width="816" height="552"/></clipPath>
+<filter id="glow" filterUnits="userSpaceOnUse" x="32" y="32" width="816" height="612"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="beamglow" filterUnits="userSpaceOnUse" x="32" y="32" width="816" height="612"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;font-size:16px;fill:#41ff6e;white-space:pre}
+.h{fill:#b6ffc8;font-weight:700} .m{fill:#1f9e46} .u{fill:#7dffa0;text-decoration:underline}
+.b{fill:#b6ffc8} .m text{fill:#1f9e46} .rv{fill:#03140a}
+.l{opacity:0;animation-name:type;animation-duration:0.039s;animation-fill-mode:forwards}
+@keyframes type{0%{opacity:1;clip-path:inset(0 100% 0 0)}100%{opacity:1;clip-path:inset(0 0 0 0)}}
+.ap,.st{opacity:0;animation:on .25s linear forwards}
+@keyframes on{0%,100%{opacity:1}}
+@keyframes off{0%,100%{opacity:0}}
+.st0{animation:on .01s linear 16.915s forwards,off .01s linear 20.414s forwards}
+.st1{animation:on .01s linear 20.414s forwards,off .01s linear 25.414s forwards}
+.st2{animation:on .01s linear 25.414s forwards,off .01s linear 30.414s forwards}
+.st3{animation:on .01s linear 30.414s forwards}
+.sess{animation:off .25s linear 15.664s forwards}
+.man{opacity:0;animation:on .01s linear 15.914s forwards}
+.bar{opacity:0;animation:on .01s linear 16.914s forwards}
+.scroll{animation:pg 30.414s step-end forwards}
+@keyframes pg{0%{transform:translate(0,0)}67.1209%{transform:translate(0,-552px)}83.5604%{transform:translate(0,-1104px)}100%{transform:translate(0,-1248px)}}
+.thumb{animation:th 30.414s step-end forwards}
+@keyframes th{0%{transform:translate(0,0)}67.1209%{transform:translate(0,169.28px)}83.5604%{transform:translate(0,338.56px)}100%{transform:translate(0,382.72px)}}
+.cw{opacity:0;animation:on .01s linear 2.500s forwards}
+.cur{fill:#41ff6e;animation:blink 1s steps(1) infinite,follow 30.424s step-end forwards}
+@keyframes blink{50%{opacity:0}}
+@keyframes follow{0.0000%{transform:translate(0px,0px)}10.8465%{transform:translate(19.2px,0px)}11.7422%{transform:translate(28.8px,0px)}11.9606%{transform:translate(38.4px,0px)}12.1269%{transform:translate(48px,0px)}12.6520%{transform:translate(57.6px,0px)}12.7890%{transform:translate(67.2px,0px)}13.0361%{transform:translate(76.8px,0px)}13.3710%{transform:translate(86.4px,0px)}13.5245%{transform:translate(96px,0px)}13.7831%{transform:translate(105.6px,0px)}14.0555%{transform:translate(115.2px,0px)}14.2001%{transform:translate(124.8px,0px)}14.4198%{transform:translate(134.4px,0px)}14.7114%{transform:translate(144px,0px)}14.9473%{transform:translate(153.6px,0px)}15.2438%{transform:translate(163.2px,0px)}15.4142%{transform:translate(172.8px,0px)}15.6026%{transform:translate(182.4px,0px)}15.7628%{transform:translate(192px,0px)}16.0107%{transform:translate(201.6px,0px)}16.3512%{transform:translate(211.2px,0px)}16.6178%{transform:translate(220.8px,0px)}16.9252%{transform:translate(230.4px,0px)}17.1459%{transform:translate(240px,0px)}18.2962%{transform:translate(0px,24px)}19.7753%{transform:translate(739.2px,24px)}20.0711%{transform:translate(748.8px,48px)}20.3669%{transform:translate(393.6px,72px)}20.6628%{transform:translate(662.4px,96px)}24.2507%{transform:translate(672px,96px)}24.4088%{transform:translate(681.6px,96px)}24.6090%{transform:translate(691.2px,96px)}25.5951%{transform:translate(0px,120px)}25.7594%{transform:translate(768px,120px)}25.8252%{transform:translate(0px,144px)}30.7554%{transform:translate(441.6px,168px)}30.9526%{transform:translate(470.4px,192px)}31.1498%{transform:translate(268.8px,240px)}31.3470%{transform:translate(432px,264px)}31.8729%{transform:translate(192px,312px)}43.6620%{transform:translate(201.6px,312px)}43.9586%{transform:translate(211.2px,312px)}44.1877%{transform:translate(220.8px,312px)}44.3428%{transform:translate(230.4px,312px)}44.5375%{transform:translate(240px,312px)}44.7197%{transform:translate(249.6px,312px)}45.7057%{transform:translate(48px,336px)}46.1988%{transform:translate(192px,360px)}47.3828%{transform:translate(201.6px,360px)}47.6979%{transform:translate(211.2px,360px)}47.8778%{transform:translate(220.8px,360px)}48.4072%{transform:translate(230.4px,360px)}48.7379%{transform:translate(240px,360px)}48.8857%{transform:translate(249.6px,360px)}49.1053%{transform:translate(259.2px,360px)}49.3500%{transform:translate(268.8px,360px)}50.3360%{transform:translate(0px,384px)}51.4864%{transform:translate(0px,0px)}52.4367%{transform:translate(0px,24px)}52.7225%{transform:translate(0px,72px)}52.8654%{transform:translate(0px,96px)}53.1512%{transform:translate(0px,144px)}53.2942%{transform:translate(0px,168px)}53.5800%{transform:translate(0px,216px)}53.7229%{transform:translate(0px,240px)}53.8658%{transform:translate(0px,264px)}54.1516%{transform:translate(0px,312px)}54.2945%{transform:translate(0px,336px)}54.4374%{transform:translate(0px,360px)}54.5803%{transform:translate(0px,384px)}54.8661%{transform:translate(0px,432px)}55.0090%{transform:translate(0px,456px)}55.1519%{transform:translate(0px,480px)}55.2948%{transform:translate(0px,504px)}55.5806%{transform:translate(0px,552px)}55.5982%{transform:translate(595.2px,552px)}67.0988%{transform:translate(604.8px,552px)}83.5330%{transform:translate(604.8px,552px)}99.9671%{transform:translate(355.2px,552px)}100%{transform:translate(355.2px,552px)}}
+.bell{opacity:0;animation:on .05s linear 9.357s forwards,off .05s linear 9.497s forwards}
+.bell{fill-opacity:.35}
+.flk{opacity:0;animation:flicker 4s steps(1) 2.500s infinite}
+@keyframes flicker{0%{opacity:.035}33%{opacity:0}61%{opacity:.05}79%{opacity:.01}}
+.ras{opacity:0;animation:ras .45s ease-out 1.950s forwards}
+@keyframes ras{0%{opacity:0}100%{opacity:1}}
+.beam{opacity:0;transform-box:view-box;transform-origin:440px 338px;animation:beam 1.5s 1.000s forwards}
+@keyframes beam{
+0%{opacity:1;transform:scale(.006,.008);animation-timing-function:ease-in}
+12%{opacity:1;transform:scale(.012,.009);animation-timing-function:ease-out}
+45%{opacity:1;transform:scale(1,.006)}
+55%{opacity:1;transform:scale(1,.006);animation-timing-function:ease-out}
+74%{opacity:.6;transform:scale(1,1);animation-timing-function:ease-in}
+100%{opacity:0;transform:scale(1,1)}}
+.btn{animation:press .2s linear 0.850s}
+@keyframes press{0%,100%{transform:translate(0,1.5px)}}
+.amb{opacity:0;animation:on .01s linear 1.000s forwards,off .01s linear 1.600s forwards}
+.grn{opacity:0;animation:on .01s linear 1.600s forwards}
+@media (prefers-reduced-motion:reduce){
+.l,.man,.bar,.grn,.ras,.cw,.st0{opacity:1;animation:none}
+.sess,.bell,.beam,.amb,.flk{display:none}
+.st{animation:none} .scroll,.thumb,.btn{animation:none}
+.cur{animation:none;transform:translate(595.2px,552px)}
+}
+</style>
+<path d="M340 708L540 708L522 746L358 746Z" fill="url(#neck)"/>
+<ellipse cx="440" cy="787" rx="214" ry="4" fill="#000000" fill-opacity=".28"/>
+<path d="M226 786C226 762 266 748 312 746L568 746C614 748 654 762 654 786Z" fill="url(#case)"/>
+<path d="M232 785L648 785" stroke="#9c8f72" stroke-width="2"/>
+<path d="M312 748L568 748" stroke="#f3ecda" stroke-width="1.5"/>
+<rect width="880" height="712" rx="28" fill="url(#case)"/>
+<rect x="1" y="1" width="878" height="710" rx="27" fill="none" stroke="url(#rim)" stroke-width="2"/>
+<rect x="16" y="16" width="848" height="644" rx="26" fill="url(#slope)"/>
+<path d="M57 27Q440.0 22.0 823 27Q853 27 853 57Q858.0 338.0 853 619Q853 649 823 649Q440.0 654.0 57 649Q27 649 27 619Q22.0 338.0 27 57Q27 27 57 27Z" fill="#26231c"/>
+<path d="M28 674L852 674" stroke="#ab9e80" stroke-width="1.5"/>
+<path d="M28 675.5L852 675.5" stroke="#efe8d5" stroke-width="1"/>
+<rect x="60" y="681" width="6" height="16" rx="3" fill="#a5987a"/><rect x="74" y="681" width="6" height="16" rx="3" fill="#a5987a"/><rect x="88" y="681" width="6" height="16" rx="3" fill="#a5987a"/><rect x="102" y="681" width="6" height="16" rx="3" fill="#a5987a"/><rect x="116" y="681" width="6" height="16" rx="3" fill="#a5987a"/><rect x="130" y="681" width="6" height="16" rx="3" fill="#a5987a"/><rect x="144" y="681" width="6" height="16" rx="3" fill="#a5987a"/>
+<rect x="771" y="680" width="62" height="20" rx="5" fill="#9d9176"/>
+<g class="btn"><rect x="773" y="679" width="58" height="18" rx="4" fill="url(#btn)" stroke="#a3977b" stroke-width="1"/></g>
+<circle cx="748" cy="688" r="5.5" fill="#9b8f73"/>
+<circle cx="748" cy="687" r="4" fill="#3d3a2e"/>
+<g class="amb"><circle cx="748" cy="687" r="11" fill="url(#ambglow)"/><circle cx="748" cy="687" r="4" fill="#ffb030"/></g>
+<g class="grn"><circle cx="748" cy="687" r="11" fill="url(#ledglow)"/><circle cx="748" cy="687" r="4" fill="#5dff84"/></g>
+<g clip-path="url(#glass)">
+<rect x="28" y="28" width="824" height="620" fill="url(#off)"/>
+<rect class="ras" x="28" y="28" width="824" height="620" fill="url(#bg)"/>
+<g filter="url(#glow)">
+<g class="sess"><text class="ap m" style="animation-delay:3.300s" x="52 61.6" y="68">$ </text>
+<text class="ap " style="animation-delay:3.573s" x="71.2" y="68">s</text>
+<text class="ap " style="animation-delay:3.639s" x="80.8" y="68">s</text>
+<text class="ap " style="animation-delay:3.690s" x="90.4" y="68">h</text>
+<text class="ap " style="animation-delay:3.849s" x="100" y="68"> </text>
+<text class="ap " style="animation-delay:3.891s" x="109.6" y="68">g</text>
+<text class="ap " style="animation-delay:3.966s" x="119.2" y="68">u</text>
+<text class="ap " style="animation-delay:4.068s" x="128.8" y="68">e</text>
+<text class="ap " style="animation-delay:4.115s" x="138.4" y="68">s</text>
+<text class="ap " style="animation-delay:4.193s" x="148" y="68">t</text>
+<text class="ap " style="animation-delay:4.276s" x="157.6" y="68">@</text>
+<text class="ap " style="animation-delay:4.320s" x="167.2" y="68">w</text>
+<text class="ap " style="animation-delay:4.387s" x="176.8" y="68">o</text>
+<text class="ap " style="animation-delay:4.476s" x="186.4" y="68">n</text>
+<text class="ap " style="animation-delay:4.548s" x="196" y="68">d</text>
+<text class="ap " style="animation-delay:4.638s" x="205.6" y="68">e</text>
+<text class="ap " style="animation-delay:4.690s" x="215.2" y="68">r</text>
+<text class="ap " style="animation-delay:4.747s" x="224.8" y="68">v</text>
+<text class="ap " style="animation-delay:4.796s" x="234.4" y="68">o</text>
+<text class="ap " style="animation-delay:4.871s" x="244" y="68">n</text>
+<text class="ap " style="animation-delay:4.975s" x="253.6" y="68">k</text>
+<text class="ap " style="animation-delay:5.056s" x="263.2" y="68">.</text>
+<text class="ap " style="animation-delay:5.149s" x="272.8" y="68">a</text>
+<text class="ap " style="animation-delay:5.217s" x="282.4" y="68">i</text>
+<text class="ap " style="animation-delay:6.017s" x="52 61.6 71.2 80.8 90.4 100 109.6 119.2 128.8 138.4 148 157.6 167.2 176.8 186.4 196 205.6 215.2 224.8 234.4 244 253.6 263.2 272.8 282.4 292 301.6 311.2 320.8 330.4 340 349.6 359.2 368.8 378.4 388 397.6 407.2 416.8 426.4 436 445.6 455.2 464.8 474.4 484 493.6 503.2 512.8 522.4 532 541.6 551.2 560.8 570.4 580 589.6 599.2 608.8 618.4 628 637.6 647.2 656.8 666.4 676 685.6 695.2 704.8 714.4 724 733.6 743.2 752.8 762.4 772 781.6" y="92">The authenticity of host 'wondervonk.ai (203.0.113.42)' can't be established.</text>
+<text class="ap " style="animation-delay:6.107s" x="52 61.6 71.2 80.8 90.4 100 109.6 119.2 128.8 138.4 148 157.6 167.2 176.8 186.4 196 205.6 215.2 224.8 234.4 244 253.6 263.2 272.8 282.4 292 301.6 311.2 320.8 330.4 340 349.6 359.2 368.8 378.4 388 397.6 407.2 416.8 426.4 436 445.6 455.2 464.8 474.4 484 493.6 503.2 512.8 522.4 532 541.6 551.2 560.8 570.4 580 589.6 599.2 608.8 618.4 628 637.6 647.2 656.8 666.4 676 685.6 695.2 704.8 714.4 724 733.6 743.2 752.8 762.4 772 781.6 791.2" y="116">ED25519 key fingerprint is SHA256:kR7vQx2mT9pLw4ZcN8bYfH3sJdE6uA1oGiV5nXyWq0M.</text>
+<text class="ap " style="animation-delay:6.197s" x="52 61.6 71.2 80.8 90.4 100 109.6 119.2 128.8 138.4 148 157.6 167.2 176.8 186.4 196 205.6 215.2 224.8 234.4 244 253.6 263.2 272.8 282.4 292 301.6 311.2 320.8 330.4 340 349.6 359.2 368.8 378.4 388 397.6 407.2 416.8 426.4 436" y="140">This key is not known by any other names.</text>
+<text class="ap " style="animation-delay:6.287s" x="52 61.6 71.2 80.8 90.4 100 109.6 119.2 128.8 138.4 148 157.6 167.2 176.8 186.4 196 205.6 215.2 224.8 234.4 244 253.6 263.2 272.8 282.4 292 301.6 311.2 320.8 330.4 340 349.6 359.2 368.8 378.4 388 397.6 407.2 416.8 426.4 436 445.6 455.2 464.8 474.4 484 493.6 503.2 512.8 522.4 532 541.6 551.2 560.8 570.4 580 589.6 599.2 608.8 618.4 628 637.6 647.2 656.8 666.4 676 685.6 695.2 704.8" y="164">Are you sure you want to continue connecting (yes/no/[fingerprint])? </text>
+<text class="ap " style="animation-delay:7.378s" x="714.4" y="164">y</text>
+<text class="ap " style="animation-delay:7.426s" x="724" y="164">e</text>
+<text class="ap " style="animation-delay:7.487s" x="733.6" y="164">s</text>
+<text class="ap " style="animation-delay:7.837s" x="52 61.6 71.2 80.8 90.4 100 109.6 119.2 128.8 138.4 148 157.6 167.2 176.8 186.4 196 205.6 215.2 224.8 234.4 244 253.6 263.2 272.8 282.4 292 301.6 311.2 320.8 330.4 340 349.6 359.2 368.8 378.4 388 397.6 407.2 416.8 426.4 436 445.6 455.2 464.8 474.4 484 493.6 503.2 512.8 522.4 532 541.6 551.2 560.8 570.4 580 589.6 599.2 608.8 618.4 628 637.6 647.2 656.8 666.4 676 685.6 695.2 704.8 714.4 724 733.6 743.2 752.8 762.4 772 781.6 791.2 800.8 810.4" y="188">Warning: Permanently added 'wondervonk.ai' (ED25519) to the list of known hosts.</text>
+<text class="ap b" style="animation-delay:9.357s" x="378.4 388 397.6 407.2 416.8 426.4 436 445.6 455.2 464.8 474.4 484" y="236">Jai Siya Ram</text>
+<text class="ap b" style="animation-delay:9.417s" x="340 349.6 359.2 368.8 378.4 388 397.6 407.2 416.8 426.4 436 445.6 455.2 464.8 474.4 484 493.6 503.2 512.8" y="260">Shri Hanumate namah</text>
+<text class="ap " style="animation-delay:9.477s" x="71.2 80.8 90.4 100 109.6 119.2 128.8 138.4 148 157.6 167.2 176.8 186.4 196 205.6 215.2 224.8 234.4 244 253.6 263.2 272.8 282.4 292 301.6 311.2" y="308">Uptime:      41 days, 6:12</text>
+<text class="ap " style="animation-delay:9.537s" x="71.2 80.8 90.4 100 109.6 119.2 128.8 138.4 148 157.6 167.2 176.8 186.4 196 205.6 215.2 224.8 234.4 244 253.6 263.2 272.8 282.4 292 301.6 311.2 320.8 330.4 340 349.6 359.2 368.8 378.4 388 397.6 407.2 416.8 426.4 436 445.6 455.2 464.8 474.4" y="332">Last login:  from somewhere on the internet</text>
+<text class="ap" style="animation-delay:9.697s" x="52 61.6 71.2 80.8 90.4 100 109.6 119.2 128.8 138.4 148 157.6 167.2 176.8 186.4 196 205.6 215.2 224.8 234.4" y="380"><tspan class="b">guest@wondervonk</tspan><tspan class="m">:~$ </tspan></text>
+<text class="ap " style="animation-delay:13.284s" x="244" y="380">w</text>
+<text class="ap " style="animation-delay:13.374s" x="253.6" y="380">h</text>
+<text class="ap " style="animation-delay:13.444s" x="263.2" y="380">o</text>
+<text class="ap " style="animation-delay:13.491s" x="272.8" y="380">a</text>
+<text class="ap " style="animation-delay:13.550s" x="282.4" y="380">m</text>
+<text class="ap " style="animation-delay:13.606s" x="292" y="380">i</text>
+<text class="ap " style="animation-delay:13.906s" x="52 61.6 71.2 80.8 90.4" y="404">guest</text>
+<text class="ap" style="animation-delay:14.056s" x="52 61.6 71.2 80.8 90.4 100 109.6 119.2 128.8 138.4 148 157.6 167.2 176.8 186.4 196 205.6 215.2 224.8 234.4" y="428"><tspan class="b">guest@wondervonk</tspan><tspan class="m">:~$ </tspan></text>
+<text class="ap " style="animation-delay:14.416s" x="244" y="428">m</text>
+<text class="ap " style="animation-delay:14.512s" x="253.6" y="428">a</text>
+<text class="ap " style="animation-delay:14.567s" x="263.2" y="428">n</text>
+<text class="ap " style="animation-delay:14.728s" x="272.8" y="428"> </text>
+<text class="ap " style="animation-delay:14.828s" x="282.4" y="428">k</text>
+<text class="ap " style="animation-delay:14.873s" x="292" y="428">r</text>
+<text class="ap " style="animation-delay:14.940s" x="301.6" y="428">i</text>
+<text class="ap " style="animation-delay:15.014s" x="311.2" y="428">s</text></g>
+<g class="man"><g clip-path="url(#pagecl)"><g class="scroll">
+<g class="l m" style="animation-delay:15.914s;animation-timing-function:steps(41,jump-none)"><text x="52" y="68">KRIS(1)</text><text x="330.4" y="68">General Commands Manual</text><text x="752.8" y="68">KRIS(1)</text></g>
+<text class="l h" style="animation-delay:16.001s;animation-timing-function:steps(11,jump-none)" x="52" y="116">Kris Kater</text>
+<text class="l m" style="animation-delay:16.045s;animation-timing-function:steps(41,jump-none)" x="52" y="140">ai engineer · amsterdam · 25+ years in software</text>
+<text class="l h" style="animation-delay:16.132s;animation-timing-function:steps(9,jump-none)" x="52" y="188">SYNOPSIS</text>
+<text class="l" style="animation-delay:16.175s;animation-timing-function:steps(41,jump-none)" x="119.2" y="212"><tspan class="h">kris</tspan> [<tspan class="u">--ai-engineering</tspan>] [<tspan class="u">--backend</tspan>] [<tspan class="u">--linux</tspan>]</text>
+<text class="l h" style="animation-delay:16.262s;animation-timing-function:steps(5,jump-none)" x="52" y="260">NAME</text>
+<text class="l" style="animation-delay:16.306s;animation-timing-function:steps(41,jump-none)" x="119.2" y="284">kris — AI engineer in Amsterdam. Generative AI put to production use, on</text>
+<text class="l" style="animation-delay:16.349s;animation-timing-function:steps(37,jump-none)" x="119.2" y="308">a backend foundation of C# and .NET.</text>
+<text class="l h" style="animation-delay:16.436s;animation-timing-function:steps(12,jump-none)" x="52" y="356">DESCRIPTION</text>
+<text class="l" style="animation-delay:16.480s;animation-timing-function:steps(41,jump-none)" x="119.2" y="380">I have built software for more than 25 years, the last 16 as a</text>
+<text class="l" style="animation-delay:16.523s;animation-timing-function:steps(41,jump-none)" x="119.2" y="404">freelancer. Today that work is generative AI in production: LLM</text>
+<text class="l" style="animation-delay:16.567s;animation-timing-function:steps(41,jump-none)" x="119.2" y="428">integration, AI agents, retrieval (RAG) and document processing.</text>
+<text class="l" style="animation-delay:16.654s;animation-timing-function:steps(41,jump-none)" x="119.2" y="476">Underneath sits what I have always built: backends in C# and .NET,</text>
+<text class="l" style="animation-delay:16.697s;animation-timing-function:steps(41,jump-none)" x="119.2" y="500">architecture and APIs with clean boundaries. I like systems that are</text>
+<text class="l" style="animation-delay:16.741s;animation-timing-function:steps(41,jump-none)" x="119.2" y="524">simple enough to reason about and honest enough to say when they are</text>
+<text class="l" style="animation-delay:16.784s;animation-timing-function:steps(8,jump-none)" x="119.2" y="548">broken.</text>
+<text class="l h" style="animation-delay:16.871s;animation-timing-function:steps(8,jump-none)" x="52" y="596">OPTIONS</text>
+<g><text class="h" x="119.2" y="620">--test-first</text><text x="292.0" y="620">A failing test first, then the code that makes it pass.</text></g>
+<g><text class="h" x="119.2" y="668">--fail-loudly</text><text x="292.0" y="668">No magic fallbacks. When something is wrong, it fails</text></g>
+<text x="292.0" y="692">where you can see it, and says what is wrong.</text>
+<g><text class="h" x="119.2" y="740">--dont-know-yet</text><text x="292.0" y="740">An honest "I don't know yet" beats a confident guess.</text></g>
+<text x="292.0" y="764">Measure first, then say it.</text>
+<g><text class="h" x="119.2" y="812">--no-new-debt</text><text x="292.0" y="812">Whatever a change made worse, that change fixes. Later</text></g>
+<text x="292.0" y="836">is not a plan.</text>
+<text class="h" x="119.2" y="884">--untrusted-output</text>
+<text x="292.0" y="908">Model output is input, not truth: forced into a schema</text>
+<text x="292.0" y="932">and validated before anything acts on it.</text>
+<g><text class="h" x="119.2" y="980">--agent-first</text><text x="292.0" y="980">"IDEs are to software development what manual</text></g>
+<text x="292.0" y="1004">transmission is to driving. Powerful, precise, and once</text>
+<text x="292.0" y="1028">essential, but increasingly replaced by systems that</text>
+<text x="292.0" y="1052">operate at a higher level of intent."</text>
+<text class="h" x="52" y="1100">BUILDING</text>
+<text x="119.2" y="1124"><tspan class="u">Wondervonk</tspan> — a SaaS that helps small and medium-sized businesses get the</text>
+<text x="119.2" y="1148">benefits of generative AI.</text>
+<text class="h" x="52" y="1196">ENVIRONMENT</text>
+<text x="119.2" y="1220">Linux is home. My daily system is <tspan class="u">Omarchy</tspan>, an opinionated Arch-based</text>
+<text x="119.2" y="1244">Linux on Hyprland. I live in the terminal and never quite stop tuning my</text>
+<text x="119.2" y="1268">setup.</text>
+<text x="119.2" y="1316">I'm a hacker in the original sense: when something behaves oddly, I take</text>
+<text x="119.2" y="1340">it apart until I understand it, and send the fix upstream.</text>
+<text x="119.2" y="1388">Away from the keyboard, I practise handstands and yoga, and I love hiking</text>
+<text x="119.2" y="1412">in the mountains with my girlfriend. I speak Dutch and English.</text>
+<text class="h" x="52" y="1460">PATCHES</text>
+<text class="u" x="119.2" y="1484">omacom/omarchy#12231</text>
+<text x="186.4" y="1508">local audio outputs are listed before network ones</text>
+<text class="u" x="119.2" y="1532">spotweb/spotweb#1001</text>
+<text x="186.4" y="1556">search terms in non-Latin scripts were silently dropped; now they</text>
+<text x="186.4" y="1580">match (merged)</text>
+<text class="u" x="119.2" y="1604">spotweb/spotweb#1000</text>
+<text x="186.4" y="1628">a Newznab category for UHD movie spots (merged)</text>
+<text class="h" x="52" y="1676">SIGNATURES</text>
+<text x="119.2" y="1700">Every commit is signed. OpenPGP (Ed25519):</text>
+<text class="u" x="119.2" y="1724">FDB9 561F CC5F 4399 744C  6441 13DF E453 0C28 527B</text>
+<text class="h" x="52" y="1772">SEE ALSO</text>
+<text class="u" x="119.2" y="1796">LinkedIn</text>
+<text class="u" x="119.2" y="1820">wondervonk.ai</text>
+<text x="119.2" y="1844">The quickest way to reach me is LinkedIn.</text>
+</g></g></g>
+<g class="bar"><rect x="832.0" y="50" width="3" height="552" fill="#1f9e46" fill-opacity=".3"/><rect class="thumb" x="832.0" y="50" width="3" height="169.28" fill="#41ff6e"/></g>
+<g class="st st0"><rect x="52" y="602" width="595.2" height="23" fill="#41ff6e"/><text class="rv" x="52" y="620" textLength="595.2" lengthAdjust="spacingAndGlyphs"> Manual page kris(1) line 1/75 (press h for help or q to quit)</text></g>
+<g class="st st1"><rect x="52" y="602" width="604.8" height="23" fill="#41ff6e"/><text class="rv" x="52" y="620" textLength="604.8" lengthAdjust="spacingAndGlyphs"> Manual page kris(1) line 24/75 (press h for help or q to quit)</text></g>
+<g class="st st2"><rect x="52" y="602" width="604.8" height="23" fill="#41ff6e"/><text class="rv" x="52" y="620" textLength="604.8" lengthAdjust="spacingAndGlyphs"> Manual page kris(1) line 47/75 (press h for help or q to quit)</text></g>
+<g class="st st3"><rect x="52" y="602" width="355.2" height="23" fill="#41ff6e"/><text class="rv" x="52" y="620" textLength="355.2" lengthAdjust="spacingAndGlyphs"> Manual page kris(1) line 53/75 (END)</text></g>
+<g class="cw"><rect class="cur" x="52" y="53" width="9.6" height="19"/></g>
+</g>
+<rect class="bell" x="28" y="28" width="824" height="620" fill="#b6ffc8"/>
+<rect x="28" y="28" width="824" height="620" fill="url(#scan)"/>
+<rect class="flk" x="28" y="28" width="824" height="620" fill="#41ff6e"/>
+<g filter="url(#beamglow)"><rect class="beam" x="32" y="32" width="816" height="612" fill="#eafff0"/></g>
+<rect x="28" y="28" width="824" height="620" fill="url(#vig)"/>
+<rect x="28" y="28" width="824" height="620" fill="url(#refl)"/>
+<ellipse cx="250" cy="110" rx="210" ry="46" transform="rotate(-9 250 110)" fill="#ffffff" fill-opacity=".03"/>
+</g>
+<path d="M58 32Q440.0 27.0 822 32Q848 32 848 58Q853.0 338.0 848 618Q848 644 822 644Q440.0 649.0 58 644Q32 644 32 618Q27.0 338.0 32 58Q32 32 58 32Z" fill="none" stroke="#000000" stroke-opacity=".5" stroke-width="2"/>
+</svg>
