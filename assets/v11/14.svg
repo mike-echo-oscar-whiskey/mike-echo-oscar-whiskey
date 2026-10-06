@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 1413 880 66" width="880" height="66" role="img" aria-label="spotweb/spotweb#1001: search terms in non-Latin scripts were silently dropped; now they match (merged)">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 1698 880 105" preserveAspectRatio="none" width="880" height="105" role="img" aria-label="The quickest way to reach me is LinkedIn. Pager status: Manual page kris(1) line 1 (press h for help or q to quit).">
 <defs>
 <pattern id="scan" width="4" height="3" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000000" fill-opacity=".24"/></pattern>
 <radialGradient id="vig" cx="50%" cy="50%" r="75%"><stop offset="60%" stop-color="#000000" stop-opacity="0"/><stop offset="100%" stop-color="#000a03" stop-opacity=".6"/></radialGradient>
 <radialGradient id="bg" cx="50%" cy="40%" r="80%"><stop offset="0%" stop-color="#06160a"/><stop offset="100%" stop-color="#020803"/></radialGradient>
-<filter id="glow" filterUnits="userSpaceOnUse" x="0" y="1393" width="880" height="106"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="glow" filterUnits="userSpaceOnUse" x="0" y="1678" width="880" height="145"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
 <style>
 text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;font-size:16px;fill:#41ff6e;white-space:pre}
@@ -31,11 +31,9 @@ text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",mo
 <rect x="12" y="12" width="856" height="1779" rx="16" fill="url(#bg)" stroke="#1c2e21" stroke-width="2"/>
 <g filter="url(#glow)">
 
-<text class="l" style="animation-delay:21.18s;animation-timing-function:steps(41,jump-none)" x="186.4" y="1406">local audio outputs are listed before network ones</text>
-<text class="l u" style="animation-delay:21.36s;animation-timing-function:steps(21,jump-none)" x="119.2" y="1428">spotweb/spotweb#1001</text>
-<text class="l" style="animation-delay:21.53s;animation-timing-function:steps(41,jump-none)" x="186.4" y="1450">search terms in non-Latin scripts were silently dropped; now they</text>
-<text class="l" style="animation-delay:21.71s;animation-timing-function:steps(15,jump-none)" x="186.4" y="1472">match (merged)</text>
-<text class="l u" style="animation-delay:21.89s;animation-timing-function:steps(21,jump-none)" x="119.2" y="1494">spotweb/spotweb#1000</text>
+<text class="l u" style="animation-delay:23.12s;animation-timing-function:steps(14,jump-none)" x="119.2" y="1692">wondervonk.ai</text>
+<text class="l" style="animation-delay:23.30s;animation-timing-function:steps(41,jump-none)" x="119.2" y="1714">The quickest way to reach me is LinkedIn.</text>
+<g class="pg" style="animation-delay:23.473s"><rect x="52" y="1744" width="566.4" height="18" fill="#41ff6e"/><text class="rv" x="52 61.6 71.2 80.8 90.4 100 109.6 119.2 128.8 138.4 148 157.6 167.2 176.8 186.4 196 205.6 215.2 224.8 234.4 244 253.6 263.2 272.8 282.4 292 301.6 311.2 320.8 330.4 340 349.6 359.2 368.8 378.4 388 397.6 407.2 416.8 426.4 436 445.6 455.2 464.8 474.4 484 493.6 503.2 512.8 522.4 532 541.6 551.2 560.8 570.4 580 589.6 599.2 608.8" y="1758"> Manual page kris(1) line 1 (press h for help or q to quit)</text></g>
 <rect class="cur" x="52" y="50" width="9.6" height="18"/>
 </g>
 <rect class="bell" x="12" y="12" width="856" height="1779" rx="16" fill="#b6ffc8"/>

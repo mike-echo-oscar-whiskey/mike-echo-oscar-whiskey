@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 1038 880 45" width="880" height="45" role="img" aria-label="Wondervonk — a SaaS that helps small and medium-sized businesses get the benefits of generative AI.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 1125 880 24" preserveAspectRatio="none" width="880" height="24" role="img" aria-label="Linux is home. My daily system is Omarchy, an opinionated Arch-based">
 <defs>
 <pattern id="scan" width="4" height="3" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000000" fill-opacity=".24"/></pattern>
 <radialGradient id="vig" cx="50%" cy="50%" r="75%"><stop offset="60%" stop-color="#000000" stop-opacity="0"/><stop offset="100%" stop-color="#000a03" stop-opacity=".6"/></radialGradient>
 <radialGradient id="bg" cx="50%" cy="40%" r="80%"><stop offset="0%" stop-color="#06160a"/><stop offset="100%" stop-color="#020803"/></radialGradient>
-<filter id="glow" filterUnits="userSpaceOnUse" x="0" y="1018" width="880" height="85"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="glow" filterUnits="userSpaceOnUse" x="0" y="1105" width="880" height="64"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
 <style>
 text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;font-size:16px;fill:#41ff6e;white-space:pre}
@@ -31,9 +31,9 @@ text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",mo
 <rect x="12" y="12" width="856" height="1779" rx="16" fill="url(#bg)" stroke="#1c2e21" stroke-width="2"/>
 <g filter="url(#glow)">
 
-<text class="l h" style="animation-delay:18.89s;animation-timing-function:steps(9,jump-none)" x="52" y="1032">BUILDING</text>
-<text class="l" style="animation-delay:19.06s;animation-timing-function:steps(41,jump-none)" x="119.2" y="1054"><tspan class="u">Wondervonk</tspan> — a SaaS that helps small and medium-sized businesses get the</text>
-<text class="l" style="animation-delay:19.24s;animation-timing-function:steps(27,jump-none)" x="119.2" y="1076">benefits of generative AI.</text>
+<text class="l h" style="animation-delay:19.41s;animation-timing-function:steps(12,jump-none)" x="52" y="1120">ENVIRONMENT</text>
+<text class="l" style="animation-delay:19.59s;animation-timing-function:steps(41,jump-none)" x="119.2" y="1142">Linux is home. My daily system is <tspan class="u">Omarchy</tspan>, an opinionated Arch-based</text>
+<text class="l" style="animation-delay:19.77s;animation-timing-function:steps(41,jump-none)" x="119.2" y="1164">Linux on Hyprland. I live in the terminal and never quite stop tuning my</text>
 <rect class="cur" x="52" y="50" width="9.6" height="18"/>
 </g>
 <rect class="bell" x="12" y="12" width="856" height="1779" rx="16" fill="#b6ffc8"/>

@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 1521 880 66" width="880" height="66" role="img" aria-label="SIGNATURES Every commit is signed. OpenPGP (Ed25519):">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 1368 880 45" preserveAspectRatio="none" width="880" height="45" role="img" aria-label="omacom/omarchy#12231: local audio outputs are listed before network ones">
 <defs>
 <pattern id="scan" width="4" height="3" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000000" fill-opacity=".24"/></pattern>
 <radialGradient id="vig" cx="50%" cy="50%" r="75%"><stop offset="60%" stop-color="#000000" stop-opacity="0"/><stop offset="100%" stop-color="#000a03" stop-opacity=".6"/></radialGradient>
 <radialGradient id="bg" cx="50%" cy="40%" r="80%"><stop offset="0%" stop-color="#06160a"/><stop offset="100%" stop-color="#020803"/></radialGradient>
-<filter id="glow" filterUnits="userSpaceOnUse" x="0" y="1501" width="880" height="106"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="glow" filterUnits="userSpaceOnUse" x="0" y="1348" width="880" height="85"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
 <style>
 text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;font-size:16px;fill:#41ff6e;white-space:pre}
@@ -31,10 +31,10 @@ text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",mo
 <rect x="12" y="12" width="856" height="1779" rx="16" fill="url(#bg)" stroke="#1c2e21" stroke-width="2"/>
 <g filter="url(#glow)">
 
-<text class="l" style="animation-delay:22.06s;animation-timing-function:steps(41,jump-none)" x="186.4" y="1516">a Newznab category for UHD movie spots (merged)</text>
-<text class="l h" style="animation-delay:22.24s;animation-timing-function:steps(11,jump-none)" x="52" y="1560">SIGNATURES</text>
-<text class="l" style="animation-delay:22.41s;animation-timing-function:steps(41,jump-none)" x="119.2" y="1582">Every commit is signed. OpenPGP (Ed25519):</text>
-<text class="l u" style="animation-delay:22.59s;animation-timing-function:steps(41,jump-none)" x="119.2" y="1604">FDB9 561F CC5F 4399 744C  6441 13DF E453 0C28 527B</text>
+<text class="l h" style="animation-delay:20.83s;animation-timing-function:steps(8,jump-none)" x="52" y="1362">PATCHES</text>
+<text class="l u" style="animation-delay:21.00s;animation-timing-function:steps(21,jump-none)" x="119.2" y="1384">omacom/omarchy#12231</text>
+<text class="l" style="animation-delay:21.18s;animation-timing-function:steps(41,jump-none)" x="186.4" y="1406">local audio outputs are listed before network ones</text>
+<text class="l u" style="animation-delay:21.36s;animation-timing-function:steps(21,jump-none)" x="119.2" y="1428">spotweb/spotweb#1001</text>
 <rect class="cur" x="52" y="50" width="9.6" height="18"/>
 </g>
 <rect class="bell" x="12" y="12" width="856" height="1779" rx="16" fill="#b6ffc8"/>
