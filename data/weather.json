@@ -1,7 +1,7 @@
 {
   "latitude": 52.366,
   "longitude": 4.901,
-  "generationtime_ms": 119.62151527404785,
+  "generationtime_ms": 106.86349868774414,
   "utc_offset_seconds": 7200,
   "timezone": "Europe/Amsterdam",
   "timezone_abbreviation": "GMT+2",
@@ -14,10 +14,10 @@
     "wind_speed_10m": "km/h"
   },
   "current": {
-    "time": "2026-10-13T12:00",
+    "time": "2026-10-13T13:30",
     "interval": 900,
-    "temperature_2m": 14.8,
+    "temperature_2m": 16.2,
     "weather_code": 3,
-    "wind_speed_10m": 17.6
+    "wind_speed_10m": 21.2
   }
 }
