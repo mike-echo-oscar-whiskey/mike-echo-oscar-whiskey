@@ -1,0 +1,230 @@
+{
+  "fetched_at": "2026-10-13T10:00:11+00:00",
+  "author": "mike-echo-oscar-whiskey",
+  "pull_requests": [
+    {
+      "repository": "Moonfin-Client/Smart-TV",
+      "number": 531,
+      "title": "Back from a title returns to the row it was picked from, even while that row is still loading",
+      "url": "https://github.com/Moonfin-Client/Smart-TV/pull/531",
+      "state": "open",
+      "created_at": "2026-10-13T07:22:48Z"
+    },
+    {
+      "repository": "Moonfin-Client/Smart-TV",
+      "number": 530,
+      "title": "Keep the external rows cached per server and user, so a child never reads an adult's row",
+      "url": "https://github.com/Moonfin-Client/Smart-TV/pull/530",
+      "state": "open",
+      "created_at": "2026-10-13T05:10:29Z"
+    },
+    {
+      "repository": "Moonfin-Client/Plugin",
+      "number": 325,
+      "title": "Hold what the Seerr proxy hands a limited user to their parental rating",
+      "url": "https://github.com/Moonfin-Client/Plugin/pull/325",
+      "state": "open",
+      "created_at": "2026-10-13T04:28:39Z"
+    },
+    {
+      "repository": "Moonfin-Client/Plugin",
+      "number": 323,
+      "title": "Size IMDb chart posters for the clients instead of sending the originals",
+      "url": "https://github.com/Moonfin-Client/Plugin/pull/323",
+      "state": "closed",
+      "created_at": "2026-10-13T04:28:26Z"
+    },
+    {
+      "repository": "Moonfin-Client/Moonfin-Core",
+      "number": 1833,
+      "title": "Name the cached chart rows after the signed-in user, so a child never reads an adult's row",
+      "url": "https://github.com/Moonfin-Client/Moonfin-Core/pull/1833",
+      "state": "closed",
+      "created_at": "2026-10-13T04:28:20Z"
+    },
+    {
+      "repository": "Moonfin-Client/Moonfin-Core",
+      "number": 1829,
+      "title": "Name the cached chart rows after the signed-in user, so a child never reads an adult's row",
+      "url": "https://github.com/Moonfin-Client/Moonfin-Core/pull/1829",
+      "state": "open",
+      "created_at": "2026-10-12T21:40:58Z"
+    },
+    {
+      "repository": "Moonfin-Client/Plugin",
+      "number": 321,
+      "title": "Size IMDb chart posters for the clients instead of sending the originals",
+      "url": "https://github.com/Moonfin-Client/Plugin/pull/321",
+      "state": "open",
+      "created_at": "2026-10-12T19:46:47Z"
+    },
+    {
+      "repository": "spotweb/spotweb",
+      "number": 1010,
+      "title": "Newznab api: answer a \"tm\" season pack as the episode range it covers",
+      "url": "https://github.com/spotweb/spotweb/pull/1010",
+      "state": "open",
+      "created_at": "2026-10-12T08:01:33Z"
+    },
+    {
+      "repository": "spotweb/spotweb",
+      "number": 1004,
+      "title": "Newznab tvsearch: match an id-looked-up title without its leading article",
+      "url": "https://github.com/spotweb/spotweb/pull/1004",
+      "state": "closed",
+      "created_at": "2026-10-09T15:12:04Z"
+    },
+    {
+      "repository": "spotweb/spotweb",
+      "number": 1003,
+      "title": "SQLite FTS: join an OR search with OR inside the MATCH",
+      "url": "https://github.com/spotweb/spotweb/pull/1003",
+      "state": "open",
+      "created_at": "2026-10-09T15:12:01Z"
+    },
+    {
+      "repository": "spotweb/spotweb",
+      "number": 1001,
+      "title": "Match non-ASCII search terms in splitWords()",
+      "url": "https://github.com/spotweb/spotweb/pull/1001",
+      "state": "merged",
+      "created_at": "2026-09-28T21:15:14Z"
+    },
+    {
+      "repository": "spotweb/spotweb",
+      "number": 1000,
+      "title": "Newznab api: return a category for UHD movie spots",
+      "url": "https://github.com/spotweb/spotweb/pull/1000",
+      "state": "merged",
+      "created_at": "2026-09-28T21:13:17Z"
+    },
+    {
+      "repository": "jellyfin/jellyfin-web",
+      "number": 8539,
+      "title": "Try a passwordless sign-in when a user tile is selected",
+      "url": "https://github.com/jellyfin/jellyfin-web/pull/8539",
+      "state": "closed",
+      "created_at": "2026-09-23T13:20:35Z"
+    },
+    {
+      "repository": "omacom/omarchy",
+      "number": 12231,
+      "title": "List local audio outputs before network ones in the audio panel",
+      "url": "https://github.com/omacom/omarchy/pull/12231",
+      "state": "open",
+      "created_at": "2026-09-17T06:26:10Z"
+    },
+    {
+      "repository": "JasperFx/marten",
+      "number": 3233,
+      "title": "Docs: Fixed .NET8 keyed service registration example in hostbuilder.md",
+      "url": "https://github.com/JasperFx/marten/pull/3233",
+      "state": "merged",
+      "created_at": "2024-05-24T12:56:02Z"
+    },
+    {
+      "repository": "ChilliCream/graphql-platform",
+      "number": 5598,
+      "title": "Update mutations.md",
+      "url": "https://github.com/ChilliCream/graphql-platform/pull/5598",
+      "state": "merged",
+      "created_at": "2022-12-11T14:05:24Z"
+    },
+    {
+      "repository": "visibilityspots/dockerfile-cloudflared",
+      "number": 36,
+      "title": "Build against tagged upstream releases",
+      "url": "https://github.com/visibilityspots/dockerfile-cloudflared/pull/36",
+      "state": "merged",
+      "created_at": "2021-06-02T20:27:06Z"
+    },
+    {
+      "repository": "visibilityspots/dockerfile-cloudflared",
+      "number": 35,
+      "title": "allow setting --max-upstream-conns",
+      "url": "https://github.com/visibilityspots/dockerfile-cloudflared/pull/35",
+      "state": "merged",
+      "created_at": "2021-05-29T19:38:26Z"
+    },
+    {
+      "repository": "Azd325/gitkraken",
+      "number": 155,
+      "title": "Removed org.freedesktop.secrets dependency and removed GNOME category.",
+      "url": "https://github.com/Azd325/gitkraken/pull/155",
+      "state": "closed",
+      "created_at": "2021-01-11T13:09:01Z"
+    },
+    {
+      "repository": "dotnet/orleans",
+      "number": 6566,
+      "title": "Log the ManagedThreadId instead of the Type name in WorkItemGroup.",
+      "url": "https://github.com/dotnet/orleans/pull/6566",
+      "state": "closed",
+      "created_at": "2020-05-29T21:08:56Z"
+    },
+    {
+      "repository": "commercetools/commercetools-dotnet-sdk",
+      "number": 109,
+      "title": "Remove private access modifier from CustomerDraft.Salutation",
+      "url": "https://github.com/commercetools/commercetools-dotnet-sdk/pull/109",
+      "state": "merged",
+      "created_at": "2019-11-05T13:13:31Z"
+    },
+    {
+      "repository": "commercetools/commercetools-dotnet-sdk",
+      "number": 107,
+      "title": "Added missing Salutation field to CustomerDraft and Customer",
+      "url": "https://github.com/commercetools/commercetools-dotnet-sdk/pull/107",
+      "state": "merged",
+      "created_at": "2019-10-28T15:47:12Z"
+    },
+    {
+      "repository": "orientechnologies/OrientDB.Net",
+      "number": 7,
+      "title": "Updated Readme.md",
+      "url": "https://github.com/orientechnologies/OrientDB.Net/pull/7",
+      "state": "merged",
+      "created_at": "2017-08-29T08:11:44Z"
+    },
+    {
+      "repository": "orientechnologies/OrientDB.Net",
+      "number": 2,
+      "title": "#1 Targeting .NET Standard 2.0",
+      "url": "https://github.com/orientechnologies/OrientDB.Net/pull/2",
+      "state": "closed",
+      "created_at": "2017-08-25T13:22:06Z"
+    },
+    {
+      "repository": "orientechnologies/OrientDB.Net.Core",
+      "number": 15,
+      "title": "IDisposable on IOrientDatabaseConnection and IOrientDBLogger > ILogger",
+      "url": "https://github.com/orientechnologies/OrientDB.Net.Core/pull/15",
+      "state": "merged",
+      "created_at": "2017-08-22T12:15:00Z"
+    },
+    {
+      "repository": "buunguyen/combres",
+      "number": 25,
+      "title": "version bump",
+      "url": "https://github.com/buunguyen/combres/pull/25",
+      "state": "merged",
+      "created_at": "2013-10-31T12:03:54Z"
+    },
+    {
+      "repository": "CouchPotato/CouchPotatoServer",
+      "number": 1253,
+      "title": "Automation for rottentomatoes.com",
+      "url": "https://github.com/CouchPotato/CouchPotatoServer/pull/1253",
+      "state": "closed",
+      "created_at": "2013-01-09T21:53:26Z"
+    },
+    {
+      "repository": "CouchPotato/CouchPotatoServer",
+      "number": 1198,
+      "title": "Added moviemeter.nl automation support",
+      "url": "https://github.com/CouchPotato/CouchPotatoServer/pull/1198",
+      "state": "closed",
+      "created_at": "2012-12-30T15:27:00Z"
+    }
+  ]
+}

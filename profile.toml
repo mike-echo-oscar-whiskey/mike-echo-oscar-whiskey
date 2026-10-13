@@ -1,0 +1,107 @@
+# Everything the profile README says, in one place. scripts/build.py turns this, together with
+# data/patches.json and data/weather.json, into README.md and the CRT slices under assets/.
+# Inline markup: **bold**, __underlined__, [text](url). A line break inside a paragraph is a line
+# break on the screen.
+
+[man]
+title = "KRIS(1)"
+center = "General Commands Manual"
+name = "Kris Kater"
+tagline = "ai engineer · amsterdam · 25+ years in software"
+pager = " Manual page kris(1) line 1 (press h for help or q to quit)"
+
+[session]
+user = "guest"
+host = "wondervonk.ai"
+ip = "203.0.113.42"
+fingerprint = "SHA256:kR7vQx2mT9pLw4ZcN8bYfH3sJdE6uA1oGiV5nXyWq0M"
+greeting = ["Jai Siya Ram", "Shri Hanumate namah"]
+booted_at = 2026-08-26T05:33:00+02:00
+last_login = "from somewhere on the internet"
+
+[weather]
+place = "Amsterdam"
+latitude = 52.3676
+longitude = 4.9041
+timezone = "Europe/Amsterdam"
+
+[patches]
+title = "PATCHES"
+max_entries = 10
+
+# Curated wording per pull request, keyed "owner/repo#number". A pull request without an entry
+# shows its title. An entry for a pull request that is no longer shown fails the build, so stale
+# wording is removed rather than kept.
+[patches.text]
+"Moonfin-Client/Smart-TV#531" = "back from a title returns to the row it was picked from, even while that row is still loading"
+"Moonfin-Client/Smart-TV#530" = "the external rows are cached per server and user, so a child never reads an adult's row"
+"Moonfin-Client/Plugin#325" = "what the Seerr proxy hands a limited user is held to their parental rating"
+"Moonfin-Client/Moonfin-Core#1829" = "the cached chart rows are named after the signed-in user, so a child never reads an adult's row"
+"Moonfin-Client/Plugin#321" = "IMDb chart posters are sized for the clients instead of sent as the originals"
+"spotweb/spotweb#1010" = "the Newznab API answers a season pack as the episode range it covers"
+"spotweb/spotweb#1003" = "an OR search on SQLite FTS joins its terms with OR inside the MATCH"
+"spotweb/spotweb#1001" = "search terms in non-Latin scripts were silently dropped; now they match"
+"spotweb/spotweb#1000" = "a Newznab category for UHD movie spots"
+"omacom/omarchy#12231" = "local audio outputs are listed before network ones"
+
+[[sections]]
+title = "SYNOPSIS"
+paragraphs = ["**kris** [__--ai-engineering__] [__--backend__] [__--linux__]"]
+
+[[sections]]
+title = "NAME"
+paragraphs = ["kris — AI engineer in Amsterdam. Generative AI put to production use, on a backend foundation of C# and .NET."]
+
+[[sections]]
+title = "DESCRIPTION"
+paragraphs = [
+  "I have built software for more than 25 years, the last 16 as a freelancer. Today that work is generative AI in production: LLM integration, AI agents, retrieval (RAG) and document processing.",
+  "Underneath sits what I have always built: backends in C# and .NET, architecture and APIs with clean boundaries. I like systems that are simple enough to reason about and honest enough to say when they are broken.",
+]
+
+[[sections]]
+title = "OPTIONS"
+[[sections.options]]
+flag = "--test-first"
+text = "A failing test first, then the code that makes it pass."
+[[sections.options]]
+flag = "--fail-loudly"
+text = "No magic fallbacks. When something is wrong, it fails where you can see it, and says what is wrong."
+[[sections.options]]
+flag = "--dont-know-yet"
+text = "An honest \"I don't know yet\" beats a confident guess. Measure first, then say it."
+[[sections.options]]
+flag = "--no-new-debt"
+text = "Whatever a change made worse, that change fixes. Later is not a plan."
+[[sections.options]]
+flag = "--untrusted-output"
+text = "Model output is input, not truth: forced into a schema and validated before anything acts on it."
+[[sections.options]]
+flag = "--agent-first"
+text = "\"IDEs are to software development what manual transmission is to driving. Powerful, precise, and once essential, but increasingly replaced by systems that operate at a higher level of intent.\""
+
+[[sections]]
+title = "BUILDING"
+paragraphs = ["[Wondervonk](https://wondervonk.ai) — a SaaS that helps small and medium-sized businesses get the benefits of generative AI."]
+
+[[sections]]
+title = "ENVIRONMENT"
+paragraphs = [
+  "Linux is home. My daily system is [Omarchy](https://omarchy.org), an opinionated Arch-based Linux on Hyprland. I live in the terminal and never quite stop tuning my setup.",
+  "I'm a hacker in the original sense: when something behaves oddly, I take it apart until I understand it, and send the fix upstream.",
+  "Away from the keyboard, I practise handstands and yoga, and I love hiking in the mountains with my girlfriend. I speak Dutch and English.",
+]
+
+[[sections]]
+patches = true
+
+[[sections]]
+title = "SIGNATURES"
+paragraphs = ["""Every commit is signed. OpenPGP (Ed25519):
+[FDB9 561F CC5F 4399 744C  6441 13DF E453 0C28 527B](https://keys.openpgp.org/vks/v1/by-fingerprint/FDB9561FCC5F4399744C644113DFE4530C28527B)"""]
+
+[[sections]]
+title = "SEE ALSO"
+paragraphs = ["""[LinkedIn](https://www.linkedin.com/in/kriskater/)
+[wondervonk.ai](https://wondervonk.ai)
+The quickest way to reach me is LinkedIn."""]

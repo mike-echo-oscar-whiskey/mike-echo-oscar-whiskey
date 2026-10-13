@@ -1,0 +1,23 @@
+{
+  "latitude": 52.366,
+  "longitude": 4.901,
+  "generationtime_ms": 119.62151527404785,
+  "utc_offset_seconds": 7200,
+  "timezone": "Europe/Amsterdam",
+  "timezone_abbreviation": "GMT+2",
+  "elevation": 5.0,
+  "current_units": {
+    "time": "iso8601",
+    "interval": "seconds",
+    "temperature_2m": "\u00b0C",
+    "weather_code": "wmo code",
+    "wind_speed_10m": "km/h"
+  },
+  "current": {
+    "time": "2026-10-13T12:00",
+    "interval": 900,
+    "temperature_2m": 14.8,
+    "weather_code": 3,
+    "wind_speed_10m": 17.6
+  }
+}
