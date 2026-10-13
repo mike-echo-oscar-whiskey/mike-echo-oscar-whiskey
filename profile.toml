@@ -100,6 +100,13 @@ title = "SIGNATURES"
 paragraphs = ["""Every commit is signed. OpenPGP (Ed25519):
 [FDB9 561F CC5F 4399 744C  6441 13DF E453 0C28 527B](https://keys.openpgp.org/vks/v1/by-fingerprint/FDB9561FCC5F4399744C644113DFE4530C28527B)"""]
 
+# The portrait is made by scripts/portrait.py from a photo that is not in this repository:
+#   scripts/portrait.py ~/Downloads/kris.png 64 > portrait.txt
+[[sections]]
+title = "AUTHOR"
+portrait = "portrait.txt"
+paragraphs = ["Kris Kater, Amsterdam."]
+
 [[sections]]
 title = "SEE ALSO"
 paragraphs = ["""[LinkedIn](https://www.linkedin.com/in/kriskater/)

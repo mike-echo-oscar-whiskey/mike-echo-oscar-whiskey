@@ -269,6 +269,10 @@ def layout_man_page(profile: dict[str, Any], patches: list[Patch]) -> list[Row]:
                 lay.paragraph(patch.text, PATCH_INDENT, url=patch.url)
             continue
         lay.line([Span(section["title"])], cls="h")
+        for text in section.get("portrait", []):
+            if len(text) > COLS - INDENT:
+                raise ValueError(f"portrait line wider than {COLS - INDENT} columns: {text!r}")
+            lay.line([Span(text.rstrip())], INDENT)
         for i, option in enumerate(section.get("options", [])):
             if i:
                 lay.blank()
@@ -555,8 +559,17 @@ def render(profile: dict[str, Any], patches_data: dict[str, Any], weather: dict[
     return Output(readme, svgs, asset_dir)
 
 
-def main() -> int:
+def load_profile() -> dict[str, Any]:
+    """profile.toml, with every section's portrait file read into its lines."""
     profile = tomllib.loads((ROOT / "profile.toml").read_text())
+    for section in profile["sections"]:
+        if "portrait" in section:
+            section["portrait"] = (ROOT / section["portrait"]).read_text().splitlines()
+    return profile
+
+
+def main() -> int:
+    profile = load_profile()
     patches = json.loads((ROOT / "data" / "patches.json").read_text())
     weather = json.loads((ROOT / "data" / "weather.json").read_text())
     out = render(profile, patches, weather)

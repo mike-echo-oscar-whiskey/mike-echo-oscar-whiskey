@@ -12,6 +12,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 
 import build  # noqa: E402
+import portrait  # noqa: E402
 
 
 def pr(repo: str, number: int, state: str, created: str, title: str = "Title here") -> dict[str, object]:
@@ -135,10 +136,39 @@ class SliceTests(unittest.TestCase):
         self.assertEqual((one.top, one.bottom), (build.baseline(1) - 16, build.baseline(2) + 6))
 
 
+class PortraitTests(unittest.TestCase):
+    def test_dark_cells_are_dense_and_light_cells_are_blank(self) -> None:
+        gray = bytes([0, 128, 255, 0])
+        self.assertEqual(portrait.to_ascii(gray, 2, 2, cut=0.3, gamma=1.0), ["@:", " @"])
+
+    def test_a_size_that_does_not_match_the_bytes_is_refused(self) -> None:
+        with self.assertRaises(ValueError):
+            portrait.to_ascii(bytes(3), 2, 2)
+
+    def test_a_portrait_section_lays_its_lines_out_verbatim_under_its_title(self) -> None:
+        profile = {
+            "man": {"title": "K(1)", "center": "Manual", "name": "K", "tagline": "t"},
+            "sections": [{"title": "AUTHOR", "portrait": ["  .:#", "#:. "]}],
+        }
+        rows = build.layout_man_page(profile, [])
+        title, first, second = rows[-3:]
+        self.assertEqual((build.plain(title.spans), title.cls), ("AUTHOR", "h"))
+        self.assertEqual((build.plain(first.spans), first.col, first.row), ("  .:#", build.INDENT, title.row + 1))
+        self.assertEqual(build.plain(second.spans), "#:.")
+
+    def test_a_portrait_wider_than_the_screen_is_refused(self) -> None:
+        profile = {
+            "man": {"title": "K(1)", "center": "Manual", "name": "K", "tagline": "t"},
+            "sections": [{"title": "AUTHOR", "portrait": ["#" * (build.COLS - build.INDENT + 1)]}],
+        }
+        with self.assertRaises(ValueError):
+            build.layout_man_page(profile, [])
+
+
 class RenderTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
-        cls.profile = tomllib.loads((ROOT / "profile.toml").read_text())
+        cls.profile = build.load_profile()
         cls.patches = {"fetched_at": "2026-10-13T10:00:00Z", "pull_requests": [
             pr("spotweb/spotweb", 1001, "merged", "2026-09-28T21:15:14Z", "Match non-ASCII search terms"),
             pr("omacom/omarchy", 12231, "open", "2026-09-17T06:26:10Z", "List local audio outputs before network ones"),
